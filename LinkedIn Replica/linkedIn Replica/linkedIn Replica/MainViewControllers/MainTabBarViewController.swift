@@ -11,12 +11,14 @@ class MainTabBarViewController: UITabBarController {
     
     //MARK: Views
     var viewTabBarSelection: UIView?
+    var postViewControllerIndex = 2
     
     //MARK: Variables
     let numberOfbarItems = 5
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.delegate = self
         initUI()
     }
     
@@ -99,9 +101,10 @@ class MainTabBarViewController: UITabBarController {
 
 }
 
+// MARK: UITabBarDelegate
 extension MainTabBarViewController {
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
-        guard let index = tabBar.items?.firstIndex(of: item) else {
+        guard let index = tabBar.items?.firstIndex(of: item), index != postViewControllerIndex else {
             return
         }
         let itemWidth = tabBar.frame.width * 0.2
@@ -109,6 +112,18 @@ extension MainTabBarViewController {
         UIView.animate(withDuration: 0.2, delay: 0) {
             self.viewTabBarSelection?.center.x = newX
         }
+    }
+}
+
+//MARK: UITabBarControllerDelegate
+extension MainTabBarViewController: UITabBarControllerDelegate {
+    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        if viewController == tabBarController.children[postViewControllerIndex] {
+            // TODO: Add post viewController
+            return false
+        }
+        
+        return true
     }
 }
 
