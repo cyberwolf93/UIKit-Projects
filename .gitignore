@@ -5,3 +5,6 @@ Cal\ Tracker/.env
 Cal\ Tracker/Server/public
 Cal\ Tracker/xcuserdata/
 Cal\ Tracker/Client/CalTracker/Pods/
+
+xcuserdata/
+*.xccheckout
