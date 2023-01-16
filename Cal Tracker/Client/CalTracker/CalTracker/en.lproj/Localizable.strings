@@ -1,0 +1,78 @@
+/* 
+  strings.strings
+  CalTracker
+
+  Created by Ahmed Mohiy on 22/10/2022.
+  
+*/
+
+//Mark: Network Core
+"network_core_invalid_url" = "Invalid Url!";
+"network_core_nod_data" = "There is no data returned";
+"network_core_bad_request" = "This is a bade request pls check your request parameters";
+"network_core_server_error" = "Server error.Please try again!";
+"network_core_server_unauthorized" = "User is UnAuthorized!";
+"network_core_server_not_found" = "Item not found";
+
+//MARK: Sign in screen
+"signin" = "Sign in";
+"email" = "Email";
+"password" = "Password";
+"login_failed" = "Login failed. Please make sure to enter the right credentials";
+
+//MARK: Home Tab bar
+"account" = "Account";
+"dashboard" = "Dashboard";
+"settings" = "Settings";
+"admin_failed_select_user" = "Admin must select a user for this action";
+
+//MARK: Add food Entry
+"add_entry_food_title" = "Add food entry";
+"edit_entry_food_title" = "Edit food entry";
+"entry_name_lable" = "Food Name:";
+"cal_value" = "Calories Value:";
+"date" = "Date";
+"time" = "Time";
+"should_write_name" = "Entry name is empty";
+"should_write_cal" = "Calories field is empty";
+"should_select_image" = "An image should be selected";
+"should_select_time_and_date" = "Should select time and date";
+"image_encoder_error" = "Failed to proccess Image";
+"failed_to_create_food_entry" = "Failed to create food entry!";
+"failed_to_formate_date" = "Failed to formate date";
+
+
+// MARK: Dashboard
+"calories" = "Calories";
+"today_calories" = "Today Calories";
+"all_food_entries" = "All Food Entries";
+"over_limit" = "Over limit";
+"acceptable" = "Acceptable";
+"delete_food_item_dailed" = "Failed to delete food entry";
+"no_entry_to_show" = "There is no food entries to show";
+"add_calories" = "Add Calories";
+
+
+// MARK: Filter by date View controller
+"filter_screen_title" = "Select date range";
+"date_from_required" = "Date from required";
+"date_to_required" = "Date to required";
+
+// MARK: Acount screen
+"profile_information_section_title" = "Profile Information";
+"account_managment_title" = "Account Management";
+"signout" = "Sign out";
+
+
+//MARK: Report screen
+"last_week" = "Last week";
+"week_before" = "Week before";
+"last_week_entries_count" = "Last week count: ";
+"week_before_entries_count" = "Week before count: ";
+"average_calories_title" = "Average calories per user";
+
+
+//MARK: Settings
+"your_cal_limit" = "Your calories limit: ";
+"generate_report" = "Genrate report";
+"change_calories_limit" = "Change your calories limit";

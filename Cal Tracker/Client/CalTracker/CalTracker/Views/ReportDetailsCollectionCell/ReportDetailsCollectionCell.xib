@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="" id="gTV-IL-0wX" customClass="ReportDetailsCollectionCell" customModule="CalTracker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="499" height="124"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="499" height="124"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eJd-S3-Qn3">
+                        <rect key="frame" x="0.0" y="0.0" width="499" height="124"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="p1d-Tc-CBt">
+                                <rect key="frame" x="10" y="41.666666666666671" width="439" height="40.666666666666671"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fir-ve-bO7">
+                                        <rect key="frame" x="0.0" y="0.0" width="439" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEv-Bg-gfd">
+                                        <rect key="frame" x="0.0" y="20.333333333333336" width="439" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60k-cy-Rqg">
+                                <rect key="frame" x="449" y="42" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="60k-cy-Rqg" secondAttribute="height" multiplier="1:1" id="e6g-3a-RIK"/>
+                                    <constraint firstAttribute="height" constant="40" id="zo6-6I-iX0"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="exclamationmark.circle" catalog="system"/>
+                                <connections>
+                                    <action selector="buttonMoreClicked:" destination="gTV-IL-0wX" eventType="touchUpInside" id="0tH-uD-JFn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="60k-cy-Rqg" firstAttribute="centerY" secondItem="eJd-S3-Qn3" secondAttribute="centerY" id="KHS-gt-6wR"/>
+                            <constraint firstAttribute="trailing" secondItem="60k-cy-Rqg" secondAttribute="trailing" constant="10" id="Q4K-OM-uVM"/>
+                            <constraint firstItem="60k-cy-Rqg" firstAttribute="leading" secondItem="p1d-Tc-CBt" secondAttribute="trailing" id="gMj-1Q-fkO"/>
+                            <constraint firstItem="p1d-Tc-CBt" firstAttribute="leading" secondItem="eJd-S3-Qn3" secondAttribute="leading" constant="10" id="iCE-Rs-JMg"/>
+                            <constraint firstItem="p1d-Tc-CBt" firstAttribute="centerY" secondItem="eJd-S3-Qn3" secondAttribute="centerY" id="xaV-pf-maN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="eJd-S3-Qn3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6m0-0j-AKV"/>
+                <constraint firstAttribute="trailing" secondItem="eJd-S3-Qn3" secondAttribute="trailing" id="i3b-ME-U5U"/>
+                <constraint firstAttribute="bottom" secondItem="eJd-S3-Qn3" secondAttribute="bottom" id="mc2-jQ-P8s"/>
+                <constraint firstItem="eJd-S3-Qn3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="pMp-uo-Ba8"/>
+            </constraints>
+            <size key="customSize" width="499" height="124"/>
+            <connections>
+                <outlet property="buttonMoreInfo" destination="60k-cy-Rqg" id="8LT-u5-1ng"/>
+                <outlet property="labelFirst" destination="Fir-ve-bO7" id="xCL-II-KpB"/>
+                <outlet property="labelSecond" destination="IEv-Bg-gfd" id="G40-9g-LZ1"/>
+            </connections>
+            <point key="canvasLocation" x="279" y="-56"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="exclamationmark.circle" catalog="system" width="128" height="123"/>
+    </resources>
+</document>

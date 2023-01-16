@@ -1,0 +1,36 @@
+inhibit_all_warnings!
+
+
+
+
+
+
+################################################################
+#MARK: IOS Framworks
+
+target 'CalTracker' do
+   workspace 'CalTracker'
+   project 'CalTracker.xcodeproj'
+   platform :ios, '13.0'
+   use_frameworks!
+   
+   pod 'SDWebImage'
+   pod 'Charts',  '~> 4.1.0'
+
+end
+
+target 'CalTrackerTests' do
+   workspace 'CalTracker'
+   project 'CalTracker.xcodeproj'
+   platform :ios, '13.0'
+   use_frameworks!
+   
+   pod 'SDWebImage'
+   pod 'Charts', '~> 4.1.0'
+
+end
+
+
+
+
+
