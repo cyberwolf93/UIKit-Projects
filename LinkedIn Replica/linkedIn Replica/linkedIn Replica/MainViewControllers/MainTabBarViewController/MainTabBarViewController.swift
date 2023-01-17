@@ -22,6 +22,11 @@ class MainTabBarViewController: UITabBarController {
         initUI()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("view did appear")
+    }
+    
     //MARK: - UI Customization
     func initUI() {
         initTabBarUI()
@@ -89,6 +94,9 @@ class MainTabBarViewController: UITabBarController {
         
     }
     
+    
+    
+    //MARK: Override parent methods
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         
         // change tab bar shadow color
@@ -126,4 +134,3 @@ extension MainTabBarViewController: UITabBarControllerDelegate {
         return true
     }
 }
-
