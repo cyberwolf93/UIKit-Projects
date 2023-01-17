@@ -14,4 +14,7 @@
 "tab_bar_item_notifications" = "Notifications";
 "tab_bar_item_jobs" = "Jobs";
 
+//MARK: Home Navigation Bar Controller
+"home_navigation_bar_search" = "Search";
+
 
