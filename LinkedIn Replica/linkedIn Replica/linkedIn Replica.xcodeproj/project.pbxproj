@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A2161FA2976FCC00019C1FC /* ProfileBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2161F92976FCC00019C1FC /* ProfileBarButtonItem.swift */; };
+		8A2161FC2976FD760019C1FC /* ProfileBarButtonItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2161FB2976FD760019C1FC /* ProfileBarButtonItemViewModel.swift */; };
+		8A216200297712450019C1FC /* HomeNavigationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2161FF297712450019C1FC /* HomeNavigationBarController.swift */; };
+		8A21620229772F770019C1FC /* HomeSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21620129772F770019C1FC /* HomeSearchViewController.swift */; };
+		8A216207297744490019C1FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A216206297744490019C1FC /* HomeViewController.swift */; };
+		8A21620A297744860019C1FC /* MyNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A216209297744860019C1FC /* MyNetworkViewController.swift */; };
+		8A21620D297744B30019C1FC /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21620C297744B30019C1FC /* NotificationsViewController.swift */; };
+		8A216210297744EC0019C1FC /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21620F297744EC0019C1FC /* JobsViewController.swift */; };
+		8A21621329774FD60019C1FC /* HomeSearchViewControllerNavigationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21621229774FD60019C1FC /* HomeSearchViewControllerNavigationBarController.swift */; };
 		8A2FDF8A2975DC1700AA3FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FDF892975DC1700AA3FAE /* AppDelegate.swift */; };
 		8A2FDF8C2975DC1700AA3FAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FDF8B2975DC1700AA3FAE /* SceneDelegate.swift */; };
 		8A2FDF8E2975DC1700AA3FAE /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FDF8D2975DC1700AA3FAE /* MainTabBarViewController.swift */; };
@@ -39,6 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A2161F92976FCC00019C1FC /* ProfileBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBarButtonItem.swift; sourceTree = "<group>"; };
+		8A2161FB2976FD760019C1FC /* ProfileBarButtonItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBarButtonItemViewModel.swift; sourceTree = "<group>"; };
+		8A2161FF297712450019C1FC /* HomeNavigationBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationBarController.swift; sourceTree = "<group>"; };
+		8A21620129772F770019C1FC /* HomeSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchViewController.swift; sourceTree = "<group>"; };
+		8A216206297744490019C1FC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8A216209297744860019C1FC /* MyNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkViewController.swift; sourceTree = "<group>"; };
+		8A21620C297744B30019C1FC /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		8A21620F297744EC0019C1FC /* JobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
+		8A21621229774FD60019C1FC /* HomeSearchViewControllerNavigationBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchViewControllerNavigationBarController.swift; sourceTree = "<group>"; };
 		8A2FDF862975DC1700AA3FAE /* linkedIn Replica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "linkedIn Replica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2FDF892975DC1700AA3FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A2FDF8B2975DC1700AA3FAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +100,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A2161F62976FC6A0019C1FC /* ReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				8A2161F72976FC7C0019C1FC /* BarViews */,
+			);
+			path = ReusableView;
+			sourceTree = "<group>";
+		};
+		8A2161F72976FC7C0019C1FC /* BarViews */ = {
+			isa = PBXGroup;
+			children = (
+				8A2161F82976FC880019C1FC /* ProfileBarButtonItem */,
+			);
+			path = BarViews;
+			sourceTree = "<group>";
+		};
+		8A2161F82976FC880019C1FC /* ProfileBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				8A2161F92976FCC00019C1FC /* ProfileBarButtonItem.swift */,
+				8A2161FB2976FD760019C1FC /* ProfileBarButtonItemViewModel.swift */,
+			);
+			path = ProfileBarButtonItem;
+			sourceTree = "<group>";
+		};
+		8A2161FD297712250019C1FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A21621129774FA60019C1FC /* HomeSearchViewControllerNavigationBarController */,
+				8A21620329772F860019C1FC /* HomeSearchViewController */,
+				8A2161FE2977122D0019C1FC /* HomeNavigationBarController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8A2161FE2977122D0019C1FC /* HomeNavigationBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8A2161FF297712450019C1FC /* HomeNavigationBarController.swift */,
+			);
+			path = HomeNavigationBarController;
+			sourceTree = "<group>";
+		};
+		8A21620329772F860019C1FC /* HomeSearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A21620129772F770019C1FC /* HomeSearchViewController.swift */,
+			);
+			path = HomeSearchViewController;
+			sourceTree = "<group>";
+		};
+		8A216204297744100019C1FC /* MainTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A2FDF8D2975DC1700AA3FAE /* MainTabBarViewController.swift */,
+			);
+			path = MainTabBarViewController;
+			sourceTree = "<group>";
+		};
+		8A216205297744320019C1FC /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A216206297744490019C1FC /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		8A216208297744680019C1FC /* MyNetworkViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A216209297744860019C1FC /* MyNetworkViewController.swift */,
+			);
+			path = MyNetworkViewController;
+			sourceTree = "<group>";
+		};
+		8A21620B2977449B0019C1FC /* NotificationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A21620C297744B30019C1FC /* NotificationsViewController.swift */,
+			);
+			path = NotificationsViewController;
+			sourceTree = "<group>";
+		};
+		8A21620E297744C50019C1FC /* JobsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A21620F297744EC0019C1FC /* JobsViewController.swift */,
+			);
+			path = JobsViewController;
+			sourceTree = "<group>";
+		};
+		8A21621129774FA60019C1FC /* HomeSearchViewControllerNavigationBarController */ = {
+			isa = PBXGroup;
+			children = (
+				8A21621229774FD60019C1FC /* HomeSearchViewControllerNavigationBarController.swift */,
+			);
+			path = HomeSearchViewControllerNavigationBarController;
+			sourceTree = "<group>";
+		};
 		8A2FDF7D2975DC1600AA3FAE = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +222,8 @@
 		8A2FDF882975DC1700AA3FAE /* linkedIn Replica */ = {
 			isa = PBXGroup;
 			children = (
+				8A2161FD297712250019C1FC /* Controllers */,
+				8A2161F62976FC6A0019C1FC /* ReusableView */,
 				8A2FDFC22975F57600AA3FAE /* SwiftExtensions */,
 				8A2FDFBA2975EE7D00AA3FAE /* UIExtensions */,
 				8A2FDFB92975ED9E00AA3FAE /* MainViewControllers */,
@@ -139,7 +258,11 @@
 		8A2FDFB92975ED9E00AA3FAE /* MainViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8A2FDF8D2975DC1700AA3FAE /* MainTabBarViewController.swift */,
+				8A21620E297744C50019C1FC /* JobsViewController */,
+				8A21620B2977449B0019C1FC /* NotificationsViewController */,
+				8A216208297744680019C1FC /* MyNetworkViewController */,
+				8A216205297744320019C1FC /* HomeViewController */,
+				8A216204297744100019C1FC /* MainTabBarViewController */,
 			);
 			path = MainViewControllers;
 			sourceTree = "<group>";
@@ -292,11 +415,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A216200297712450019C1FC /* HomeNavigationBarController.swift in Sources */,
+				8A21621329774FD60019C1FC /* HomeSearchViewControllerNavigationBarController.swift in Sources */,
+				8A2161FC2976FD760019C1FC /* ProfileBarButtonItemViewModel.swift in Sources */,
 				8A2FDF8E2975DC1700AA3FAE /* MainTabBarViewController.swift in Sources */,
+				8A21620D297744B30019C1FC /* NotificationsViewController.swift in Sources */,
 				8A2FDF8A2975DC1700AA3FAE /* AppDelegate.swift in Sources */,
 				8A2FDFC42975F59800AA3FAE /* StringExtension.swift in Sources */,
+				8A216207297744490019C1FC /* HomeViewController.swift in Sources */,
+				8A216210297744EC0019C1FC /* JobsViewController.swift in Sources */,
 				8A2FDF8C2975DC1700AA3FAE /* SceneDelegate.swift in Sources */,
+				8A2161FA2976FCC00019C1FC /* ProfileBarButtonItem.swift in Sources */,
 				8A2FDFBC2975EE9900AA3FAE /* UIColorExtension.swift in Sources */,
+				8A21620A297744860019C1FC /* MyNetworkViewController.swift in Sources */,
+				8A21620229772F770019C1FC /* HomeSearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +619,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				"INFOPLIST_KEY_UIMainStoryboardFile[sdk=*]" = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -515,6 +649,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				"INFOPLIST_KEY_UIMainStoryboardFile[sdk=*]" = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
