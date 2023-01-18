@@ -15,6 +15,7 @@ class MainTabBarViewController: UITabBarController {
     
     //MARK: Variables
     let numberOfbarItems = 5
+    static let storyboardId: String = "MainTabBarViewControllerVCID"
 
     override func viewDidLoad() {
         super.viewDidLoad()

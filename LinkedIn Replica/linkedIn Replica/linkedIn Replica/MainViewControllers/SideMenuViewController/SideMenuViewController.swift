@@ -9,6 +9,9 @@ import UIKit
 
 class SideMenuViewController: UIViewController {
     
+    //MARK: Variables
+    static let storyboardId: String = "SideMenuViewControllerVCID"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

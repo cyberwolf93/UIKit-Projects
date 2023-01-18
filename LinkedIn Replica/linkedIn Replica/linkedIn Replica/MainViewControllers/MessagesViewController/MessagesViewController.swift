@@ -9,6 +9,9 @@ import UIKit
 
 class MessagesViewController: UIViewController {
     
+    //MARK: Variables
+    static let storyboardId: String = "MessagesViewControllerVCID"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
