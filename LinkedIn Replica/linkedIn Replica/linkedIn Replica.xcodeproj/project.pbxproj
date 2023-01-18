@@ -28,6 +28,9 @@
 		8A2FDFBC2975EE9900AA3FAE /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FDFBB2975EE9900AA3FAE /* UIColorExtension.swift */; };
 		8A2FDFBF2975F4A300AA3FAE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A2FDFC12975F4A300AA3FAE /* Localizable.strings */; };
 		8A2FDFC42975F59800AA3FAE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FDFC32975F59800AA3FAE /* StringExtension.swift */; };
+		8A8CC4F329787AC5002CFEC6 /* MainAppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC4F229787AC5002CFEC6 /* MainAppContainerViewController.swift */; };
+		8A8CC4F629787BA7002CFEC6 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC4F529787BA7002CFEC6 /* SideMenuViewController.swift */; };
+		8A8CC4F929787BF1002CFEC6 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC4F829787BF0002CFEC6 /* MessagesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,9 @@
 		8A2FDFBB2975EE9900AA3FAE /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		8A2FDFC02975F4A300AA3FAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8A2FDFC32975F59800AA3FAE /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		8A8CC4F229787AC5002CFEC6 /* MainAppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppContainerViewController.swift; sourceTree = "<group>"; };
+		8A8CC4F529787BA7002CFEC6 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		8A8CC4F829787BF0002CFEC6 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +233,7 @@
 				8A2FDFC22975F57600AA3FAE /* SwiftExtensions */,
 				8A2FDFBA2975EE7D00AA3FAE /* UIExtensions */,
 				8A2FDFB92975ED9E00AA3FAE /* MainViewControllers */,
+				8A8CC4F229787AC5002CFEC6 /* MainAppContainerViewController.swift */,
 				8A2FDF892975DC1700AA3FAE /* AppDelegate.swift */,
 				8A2FDF8B2975DC1700AA3FAE /* SceneDelegate.swift */,
 				8A2FDF8F2975DC1700AA3FAE /* Main.storyboard */,
@@ -258,11 +265,13 @@
 		8A2FDFB92975ED9E00AA3FAE /* MainViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8A216204297744100019C1FC /* MainTabBarViewController */,
 				8A21620E297744C50019C1FC /* JobsViewController */,
 				8A21620B2977449B0019C1FC /* NotificationsViewController */,
 				8A216208297744680019C1FC /* MyNetworkViewController */,
 				8A216205297744320019C1FC /* HomeViewController */,
-				8A216204297744100019C1FC /* MainTabBarViewController */,
+				8A8CC4F429787B5D002CFEC6 /* SideMenuViewController */,
+				8A8CC4F729787BC7002CFEC6 /* MessagesViewController */,
 			);
 			path = MainViewControllers;
 			sourceTree = "<group>";
@@ -281,6 +290,22 @@
 				8A2FDFC32975F59800AA3FAE /* StringExtension.swift */,
 			);
 			path = SwiftExtensions;
+			sourceTree = "<group>";
+		};
+		8A8CC4F429787B5D002CFEC6 /* SideMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A8CC4F529787BA7002CFEC6 /* SideMenuViewController.swift */,
+			);
+			path = SideMenuViewController;
+			sourceTree = "<group>";
+		};
+		8A8CC4F729787BC7002CFEC6 /* MessagesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A8CC4F829787BF0002CFEC6 /* MessagesViewController.swift */,
+			);
+			path = MessagesViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,13 +440,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8CC4F629787BA7002CFEC6 /* SideMenuViewController.swift in Sources */,
 				8A216200297712450019C1FC /* HomeNavigationBarController.swift in Sources */,
 				8A21621329774FD60019C1FC /* HomeSearchViewControllerNavigationBarController.swift in Sources */,
+				8A8CC4F929787BF1002CFEC6 /* MessagesViewController.swift in Sources */,
 				8A2161FC2976FD760019C1FC /* ProfileBarButtonItemViewModel.swift in Sources */,
 				8A2FDF8E2975DC1700AA3FAE /* MainTabBarViewController.swift in Sources */,
 				8A21620D297744B30019C1FC /* NotificationsViewController.swift in Sources */,
 				8A2FDF8A2975DC1700AA3FAE /* AppDelegate.swift in Sources */,
 				8A2FDFC42975F59800AA3FAE /* StringExtension.swift in Sources */,
+				8A8CC4F329787AC5002CFEC6 /* MainAppContainerViewController.swift in Sources */,
 				8A216207297744490019C1FC /* HomeViewController.swift in Sources */,
 				8A216210297744EC0019C1FC /* JobsViewController.swift in Sources */,
 				8A2FDF8C2975DC1700AA3FAE /* SceneDelegate.swift in Sources */,
