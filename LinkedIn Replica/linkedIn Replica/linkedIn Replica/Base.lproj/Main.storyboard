@@ -92,7 +92,7 @@
         <!--Side Menu View Controller-->
         <scene sceneID="SKX-1j-xn3">
             <objects>
-                <viewController id="mJy-Th-VWH" customClass="SideMenuViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SideMenuViewControllerVCID" id="mJy-Th-VWH" customClass="SideMenuViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hKC-Je-kAC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,7 +122,7 @@
         <!--Messages View Controller-->
         <scene sceneID="JtQ-l0-UfC">
             <objects>
-                <viewController id="UXA-nj-KA2" customClass="MessagesViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MessagesViewControllerVCID" id="UXA-nj-KA2" customClass="MessagesViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="szR-CW-zy5">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,7 +137,7 @@
         <!--Main Tab Bar View Controller-->
         <scene sceneID="r2f-OQ-06j">
             <objects>
-                <tabBarController storyboardIdentifier="MainTabBarViewControllerID" id="K3A-Ma-o7a" customClass="MainTabBarViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabBarViewControllerVCID" id="K3A-Ma-o7a" customClass="MainTabBarViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="4f9-Ru-K9q"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tI1-Mo-01f">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
