@@ -31,10 +31,6 @@ extension HomeViewController: HomeNavigationBarControllerDelegate {
     func searchDidBeginEditing() {
         self.navigateToSearchSuggestionViewController()
     }
-    
-    func searchDidEndEditing() {
-        
-    }
 }
 
 //MARK: Navigation handler
@@ -46,3 +42,4 @@ extension HomeViewController {
         self.navigationController?.pushViewController(viewControlelr, animated: false)
     }
 }
+
