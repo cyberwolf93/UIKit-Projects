@@ -28,6 +28,11 @@
 		8A2FDFBC2975EE9900AA3FAE /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FDFBB2975EE9900AA3FAE /* UIColorExtension.swift */; };
 		8A2FDFBF2975F4A300AA3FAE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A2FDFC12975F4A300AA3FAE /* Localizable.strings */; };
 		8A2FDFC42975F59800AA3FAE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FDFC32975F59800AA3FAE /* StringExtension.swift */; };
+		8A3BE58C2979A938007817E8 /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE58B2979A938007817E8 /* NotificationNameExtension.swift */; };
+		8A3BE58F2979B37B007817E8 /* MainContainerTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE58E2979B37B007817E8 /* MainContainerTransitionController.swift */; };
+		8A3BE591297B0C1E007817E8 /* UIWindowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE590297B0C1E007817E8 /* UIWindowExtension.swift */; };
+		8A3BE594297C4491007817E8 /* MainContainerTransitionController+GestureHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE593297C4491007817E8 /* MainContainerTransitionController+GestureHandling.swift */; };
+		8A3BE596297C454C007817E8 /* MainContainerTransitionController+NavigationBarButtonTapped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE595297C454C007817E8 /* MainContainerTransitionController+NavigationBarButtonTapped.swift */; };
 		8A8CC4F329787AC5002CFEC6 /* MainAppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC4F229787AC5002CFEC6 /* MainAppContainerViewController.swift */; };
 		8A8CC4F629787BA7002CFEC6 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC4F529787BA7002CFEC6 /* SideMenuViewController.swift */; };
 		8A8CC4F929787BF1002CFEC6 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC4F829787BF0002CFEC6 /* MessagesViewController.swift */; };
@@ -76,6 +81,11 @@
 		8A2FDFBB2975EE9900AA3FAE /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		8A2FDFC02975F4A300AA3FAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8A2FDFC32975F59800AA3FAE /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		8A3BE58B2979A938007817E8 /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		8A3BE58E2979B37B007817E8 /* MainContainerTransitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerTransitionController.swift; sourceTree = "<group>"; };
+		8A3BE590297B0C1E007817E8 /* UIWindowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowExtension.swift; sourceTree = "<group>"; };
+		8A3BE593297C4491007817E8 /* MainContainerTransitionController+GestureHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainContainerTransitionController+GestureHandling.swift"; sourceTree = "<group>"; };
+		8A3BE595297C454C007817E8 /* MainContainerTransitionController+NavigationBarButtonTapped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainContainerTransitionController+NavigationBarButtonTapped.swift"; sourceTree = "<group>"; };
 		8A8CC4F229787AC5002CFEC6 /* MainAppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppContainerViewController.swift; sourceTree = "<group>"; };
 		8A8CC4F529787BA7002CFEC6 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		8A8CC4F829787BF0002CFEC6 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
@@ -134,9 +144,9 @@
 		8A2161FD297712250019C1FC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8A21621129774FA60019C1FC /* HomeSearchViewControllerNavigationBarController */,
-				8A21620329772F860019C1FC /* HomeSearchViewController */,
-				8A2161FE2977122D0019C1FC /* HomeNavigationBarController */,
+				8A3BE592297C4469007817E8 /* MainContainerTransitionController */,
+				8A3BE58D2979B2E5007817E8 /* NavigationBarControllers */,
+				8A21620129772F770019C1FC /* HomeSearchViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -147,14 +157,6 @@
 				8A2161FF297712450019C1FC /* HomeNavigationBarController.swift */,
 			);
 			path = HomeNavigationBarController;
-			sourceTree = "<group>";
-		};
-		8A21620329772F860019C1FC /* HomeSearchViewController */ = {
-			isa = PBXGroup;
-			children = (
-				8A21620129772F770019C1FC /* HomeSearchViewController.swift */,
-			);
-			path = HomeSearchViewController;
 			sourceTree = "<group>";
 		};
 		8A216204297744100019C1FC /* MainTabBarViewController */ = {
@@ -228,10 +230,9 @@
 		8A2FDF882975DC1700AA3FAE /* linkedIn Replica */ = {
 			isa = PBXGroup;
 			children = (
+				8A3BE598297EF2A0007817E8 /* Extensions */,
 				8A2161FD297712250019C1FC /* Controllers */,
 				8A2161F62976FC6A0019C1FC /* ReusableView */,
-				8A2FDFC22975F57600AA3FAE /* SwiftExtensions */,
-				8A2FDFBA2975EE7D00AA3FAE /* UIExtensions */,
 				8A2FDFB92975ED9E00AA3FAE /* MainViewControllers */,
 				8A8CC4F229787AC5002CFEC6 /* MainAppContainerViewController.swift */,
 				8A2FDF892975DC1700AA3FAE /* AppDelegate.swift */,
@@ -280,6 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				8A2FDFBB2975EE9900AA3FAE /* UIColorExtension.swift */,
+				8A3BE590297B0C1E007817E8 /* UIWindowExtension.swift */,
 			);
 			path = UIExtensions;
 			sourceTree = "<group>";
@@ -288,8 +290,37 @@
 			isa = PBXGroup;
 			children = (
 				8A2FDFC32975F59800AA3FAE /* StringExtension.swift */,
+				8A3BE58B2979A938007817E8 /* NotificationNameExtension.swift */,
 			);
 			path = SwiftExtensions;
+			sourceTree = "<group>";
+		};
+		8A3BE58D2979B2E5007817E8 /* NavigationBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A2161FE2977122D0019C1FC /* HomeNavigationBarController */,
+				8A21621129774FA60019C1FC /* HomeSearchViewControllerNavigationBarController */,
+			);
+			path = NavigationBarControllers;
+			sourceTree = "<group>";
+		};
+		8A3BE592297C4469007817E8 /* MainContainerTransitionController */ = {
+			isa = PBXGroup;
+			children = (
+				8A3BE58E2979B37B007817E8 /* MainContainerTransitionController.swift */,
+				8A3BE593297C4491007817E8 /* MainContainerTransitionController+GestureHandling.swift */,
+				8A3BE595297C454C007817E8 /* MainContainerTransitionController+NavigationBarButtonTapped.swift */,
+			);
+			path = MainContainerTransitionController;
+			sourceTree = "<group>";
+		};
+		8A3BE598297EF2A0007817E8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A2FDFC22975F57600AA3FAE /* SwiftExtensions */,
+				8A2FDFBA2975EE7D00AA3FAE /* UIExtensions */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		8A8CC4F429787B5D002CFEC6 /* SideMenuViewController */ = {
@@ -444,19 +475,24 @@
 				8A216200297712450019C1FC /* HomeNavigationBarController.swift in Sources */,
 				8A21621329774FD60019C1FC /* HomeSearchViewControllerNavigationBarController.swift in Sources */,
 				8A8CC4F929787BF1002CFEC6 /* MessagesViewController.swift in Sources */,
+				8A3BE596297C454C007817E8 /* MainContainerTransitionController+NavigationBarButtonTapped.swift in Sources */,
 				8A2161FC2976FD760019C1FC /* ProfileBarButtonItemViewModel.swift in Sources */,
 				8A2FDF8E2975DC1700AA3FAE /* MainTabBarViewController.swift in Sources */,
 				8A21620D297744B30019C1FC /* NotificationsViewController.swift in Sources */,
+				8A3BE58F2979B37B007817E8 /* MainContainerTransitionController.swift in Sources */,
 				8A2FDF8A2975DC1700AA3FAE /* AppDelegate.swift in Sources */,
 				8A2FDFC42975F59800AA3FAE /* StringExtension.swift in Sources */,
+				8A3BE58C2979A938007817E8 /* NotificationNameExtension.swift in Sources */,
 				8A8CC4F329787AC5002CFEC6 /* MainAppContainerViewController.swift in Sources */,
 				8A216207297744490019C1FC /* HomeViewController.swift in Sources */,
 				8A216210297744EC0019C1FC /* JobsViewController.swift in Sources */,
+				8A3BE591297B0C1E007817E8 /* UIWindowExtension.swift in Sources */,
 				8A2FDF8C2975DC1700AA3FAE /* SceneDelegate.swift in Sources */,
 				8A2161FA2976FCC00019C1FC /* ProfileBarButtonItem.swift in Sources */,
 				8A2FDFBC2975EE9900AA3FAE /* UIColorExtension.swift in Sources */,
 				8A21620A297744860019C1FC /* MyNetworkViewController.swift in Sources */,
 				8A21620229772F770019C1FC /* HomeSearchViewController.swift in Sources */,
+				8A3BE594297C4491007817E8 /* MainContainerTransitionController+GestureHandling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
