@@ -10,6 +10,34 @@
 		8A3BE5AC297EF935007817E8 /* linkedin_models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3BE5A3297EF934007817E8 /* linkedin_models.framework */; };
 		8A3BE5B1297EF935007817E8 /* linkedin_modelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5B0297EF935007817E8 /* linkedin_modelsTests.swift */; };
 		8A3BE5B2297EF935007817E8 /* linkedin_models.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3BE5A6297EF934007817E8 /* linkedin_models.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A3BE5CA297EFADC007817E8 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5C9297EFADC007817E8 /* Identity.swift */; };
+		8A3BE5CC297EFF93007817E8 /* PersonIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5CB297EFF93007817E8 /* PersonIdentity.swift */; };
+		8A3BE5CE297F0101007817E8 /* CompanyIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5CD297F0101007817E8 /* CompanyIdentity.swift */; };
+		8A3BE5D0297F033C007817E8 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5CF297F033C007817E8 /* Job.swift */; };
+		8A3BE5D2297F04C1007817E8 /* AppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5D1297F04C1007817E8 /* AppNotification.swift */; };
+		8A3BE5D4297F078C007817E8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5D3297F078C007817E8 /* Post.swift */; };
+		8A3BE5D6297F1D38007817E8 /* PersonPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5D5297F1D38007817E8 /* PersonPost.swift */; };
+		8A3BE5D8297F1E10007817E8 /* CompanyPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5D7297F1E10007817E8 /* CompanyPost.swift */; };
+		8A3BE5DA297F1EC6007817E8 /* ExperineceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5D9297F1EC6007817E8 /* ExperineceEntity.swift */; };
+		8A3BE5DC297F1FEC007817E8 /* EducationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5DB297F1FEC007817E8 /* EducationEntity.swift */; };
+		8A3BE5DE297F20B5007817E8 /* LicenseOrCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5DD297F20B5007817E8 /* LicenseOrCertificate.swift */; };
+		8A3BE5E3297F21F7007817E8 /* IndustryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5E2297F21F7007817E8 /* IndustryType.swift */; };
+		8A3BE5E5297F23DC007817E8 /* CompanyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5E4297F23DC007817E8 /* CompanyType.swift */; };
+		8A3BE5E7297F2422007817E8 /* Funding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5E6297F2422007817E8 /* Funding.swift */; };
+		8A3BE5EA297F24E7007817E8 /* StockFunding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5E9297F24E7007817E8 /* StockFunding.swift */; };
+		8A3BE5EC297F260F007817E8 /* RaiseFunding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5EB297F260F007817E8 /* RaiseFunding.swift */; };
+		8A3BE5EE297F27C0007817E8 /* LocationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5ED297F27C0007817E8 /* LocationEntity.swift */; };
+		8A3BE5F0297F28D1007817E8 /* WorkPlaceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5EF297F28D1007817E8 /* WorkPlaceType.swift */; };
+		8A3BE5F2297F298B007817E8 /* PositionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5F1297F298B007817E8 /* PositionType.swift */; };
+		8A3BE5F4297F2C81007817E8 /* PositionLevelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5F3297F2C81007817E8 /* PositionLevelType.swift */; };
+		8A3BE5F6297F2D25007817E8 /* NotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5F5297F2D25007817E8 /* NotificationType.swift */; };
+		8A3BE5F8297F2DF5007817E8 /* NotificationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5F7297F2DF5007817E8 /* NotificationAction.swift */; };
+		8A3BE5FA297F2F21007817E8 /* NotificationActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5F9297F2F21007817E8 /* NotificationActionType.swift */; };
+		8A3BE5FC297F2F6B007817E8 /* NotificarionMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5FB297F2F6B007817E8 /* NotificarionMetadata.swift */; };
+		8A3BE5FE297F2F9F007817E8 /* NotificationMetadataJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5FD297F2F9F007817E8 /* NotificationMetadataJob.swift */; };
+		8A3BE600297F2FC5007817E8 /* NotificationMetadataNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5FF297F2FC5007817E8 /* NotificationMetadataNews.swift */; };
+		8A3BE602297F3004007817E8 /* NotificationMetadataPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE601297F3004007817E8 /* NotificationMetadataPerson.swift */; };
+		8A3BE604297F3038007817E8 /* NotificationMetadataPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE603297F3038007817E8 /* NotificationMetadataPost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +55,34 @@
 		8A3BE5A6297EF934007817E8 /* linkedin_models.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linkedin_models.h; sourceTree = "<group>"; };
 		8A3BE5AB297EF935007817E8 /* linkedin_modelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linkedin_modelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3BE5B0297EF935007817E8 /* linkedin_modelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkedin_modelsTests.swift; sourceTree = "<group>"; };
+		8A3BE5C9297EFADC007817E8 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		8A3BE5CB297EFF93007817E8 /* PersonIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonIdentity.swift; sourceTree = "<group>"; };
+		8A3BE5CD297F0101007817E8 /* CompanyIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyIdentity.swift; sourceTree = "<group>"; };
+		8A3BE5CF297F033C007817E8 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		8A3BE5D1297F04C1007817E8 /* AppNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotification.swift; sourceTree = "<group>"; };
+		8A3BE5D3297F078C007817E8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8A3BE5D5297F1D38007817E8 /* PersonPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonPost.swift; sourceTree = "<group>"; };
+		8A3BE5D7297F1E10007817E8 /* CompanyPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyPost.swift; sourceTree = "<group>"; };
+		8A3BE5D9297F1EC6007817E8 /* ExperineceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperineceEntity.swift; sourceTree = "<group>"; };
+		8A3BE5DB297F1FEC007817E8 /* EducationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationEntity.swift; sourceTree = "<group>"; };
+		8A3BE5DD297F20B5007817E8 /* LicenseOrCertificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseOrCertificate.swift; sourceTree = "<group>"; };
+		8A3BE5E2297F21F7007817E8 /* IndustryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustryType.swift; sourceTree = "<group>"; };
+		8A3BE5E4297F23DC007817E8 /* CompanyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyType.swift; sourceTree = "<group>"; };
+		8A3BE5E6297F2422007817E8 /* Funding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funding.swift; sourceTree = "<group>"; };
+		8A3BE5E9297F24E7007817E8 /* StockFunding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockFunding.swift; sourceTree = "<group>"; };
+		8A3BE5EB297F260F007817E8 /* RaiseFunding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiseFunding.swift; sourceTree = "<group>"; };
+		8A3BE5ED297F27C0007817E8 /* LocationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationEntity.swift; sourceTree = "<group>"; };
+		8A3BE5EF297F28D1007817E8 /* WorkPlaceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkPlaceType.swift; sourceTree = "<group>"; };
+		8A3BE5F1297F298B007817E8 /* PositionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionType.swift; sourceTree = "<group>"; };
+		8A3BE5F3297F2C81007817E8 /* PositionLevelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionLevelType.swift; sourceTree = "<group>"; };
+		8A3BE5F5297F2D25007817E8 /* NotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationType.swift; sourceTree = "<group>"; };
+		8A3BE5F7297F2DF5007817E8 /* NotificationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAction.swift; sourceTree = "<group>"; };
+		8A3BE5F9297F2F21007817E8 /* NotificationActionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationActionType.swift; sourceTree = "<group>"; };
+		8A3BE5FB297F2F6B007817E8 /* NotificarionMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificarionMetadata.swift; sourceTree = "<group>"; };
+		8A3BE5FD297F2F9F007817E8 /* NotificationMetadataJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMetadataJob.swift; sourceTree = "<group>"; };
+		8A3BE5FF297F2FC5007817E8 /* NotificationMetadataNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMetadataNews.swift; sourceTree = "<group>"; };
+		8A3BE601297F3004007817E8 /* NotificationMetadataPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMetadataPerson.swift; sourceTree = "<group>"; };
+		8A3BE603297F3038007817E8 /* NotificationMetadataPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMetadataPost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +125,9 @@
 		8A3BE5A5297EF934007817E8 /* linkedin_models */ = {
 			isa = PBXGroup;
 			children = (
+				8A3BE5E8297F24CD007817E8 /* Protocols */,
+				8A3BE5E1297F21D4007817E8 /* Enums */,
+				8A3BE5C8297EFAB2007817E8 /* Entities */,
 				8A3BE5A6297EF934007817E8 /* linkedin_models.h */,
 			);
 			path = linkedin_models;
@@ -80,6 +139,55 @@
 				8A3BE5B0297EF935007817E8 /* linkedin_modelsTests.swift */,
 			);
 			path = linkedin_modelsTests;
+			sourceTree = "<group>";
+		};
+		8A3BE5C8297EFAB2007817E8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8A3BE5C9297EFADC007817E8 /* Identity.swift */,
+				8A3BE5CB297EFF93007817E8 /* PersonIdentity.swift */,
+				8A3BE5CD297F0101007817E8 /* CompanyIdentity.swift */,
+				8A3BE5CF297F033C007817E8 /* Job.swift */,
+				8A3BE5D1297F04C1007817E8 /* AppNotification.swift */,
+				8A3BE5D5297F1D38007817E8 /* PersonPost.swift */,
+				8A3BE5D7297F1E10007817E8 /* CompanyPost.swift */,
+				8A3BE5D9297F1EC6007817E8 /* ExperineceEntity.swift */,
+				8A3BE5DB297F1FEC007817E8 /* EducationEntity.swift */,
+				8A3BE5DD297F20B5007817E8 /* LicenseOrCertificate.swift */,
+				8A3BE5E9297F24E7007817E8 /* StockFunding.swift */,
+				8A3BE5EB297F260F007817E8 /* RaiseFunding.swift */,
+				8A3BE5ED297F27C0007817E8 /* LocationEntity.swift */,
+				8A3BE5F7297F2DF5007817E8 /* NotificationAction.swift */,
+				8A3BE5FD297F2F9F007817E8 /* NotificationMetadataJob.swift */,
+				8A3BE5FF297F2FC5007817E8 /* NotificationMetadataNews.swift */,
+				8A3BE601297F3004007817E8 /* NotificationMetadataPerson.swift */,
+				8A3BE603297F3038007817E8 /* NotificationMetadataPost.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		8A3BE5E1297F21D4007817E8 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				8A3BE5E2297F21F7007817E8 /* IndustryType.swift */,
+				8A3BE5E4297F23DC007817E8 /* CompanyType.swift */,
+				8A3BE5EF297F28D1007817E8 /* WorkPlaceType.swift */,
+				8A3BE5F1297F298B007817E8 /* PositionType.swift */,
+				8A3BE5F3297F2C81007817E8 /* PositionLevelType.swift */,
+				8A3BE5F5297F2D25007817E8 /* NotificationType.swift */,
+				8A3BE5F9297F2F21007817E8 /* NotificationActionType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		8A3BE5E8297F24CD007817E8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8A3BE5D3297F078C007817E8 /* Post.swift */,
+				8A3BE5E6297F2422007817E8 /* Funding.swift */,
+				8A3BE5FB297F2F6B007817E8 /* NotificarionMetadata.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +252,7 @@
 				TargetAttributes = {
 					8A3BE5A2297EF934007817E8 = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 					};
 					8A3BE5AA297EF935007817E8 = {
 						CreatedOnToolsVersion = 14.0;
@@ -191,6 +300,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3BE5CE297F0101007817E8 /* CompanyIdentity.swift in Sources */,
+				8A3BE5FE297F2F9F007817E8 /* NotificationMetadataJob.swift in Sources */,
+				8A3BE5D8297F1E10007817E8 /* CompanyPost.swift in Sources */,
+				8A3BE5F0297F28D1007817E8 /* WorkPlaceType.swift in Sources */,
+				8A3BE5E5297F23DC007817E8 /* CompanyType.swift in Sources */,
+				8A3BE5D2297F04C1007817E8 /* AppNotification.swift in Sources */,
+				8A3BE5D6297F1D38007817E8 /* PersonPost.swift in Sources */,
+				8A3BE5CC297EFF93007817E8 /* PersonIdentity.swift in Sources */,
+				8A3BE5F6297F2D25007817E8 /* NotificationType.swift in Sources */,
+				8A3BE5FA297F2F21007817E8 /* NotificationActionType.swift in Sources */,
+				8A3BE5F4297F2C81007817E8 /* PositionLevelType.swift in Sources */,
+				8A3BE5EE297F27C0007817E8 /* LocationEntity.swift in Sources */,
+				8A3BE5DC297F1FEC007817E8 /* EducationEntity.swift in Sources */,
+				8A3BE5D4297F078C007817E8 /* Post.swift in Sources */,
+				8A3BE5DA297F1EC6007817E8 /* ExperineceEntity.swift in Sources */,
+				8A3BE5CA297EFADC007817E8 /* Identity.swift in Sources */,
+				8A3BE600297F2FC5007817E8 /* NotificationMetadataNews.swift in Sources */,
+				8A3BE5E3297F21F7007817E8 /* IndustryType.swift in Sources */,
+				8A3BE5E7297F2422007817E8 /* Funding.swift in Sources */,
+				8A3BE5F2297F298B007817E8 /* PositionType.swift in Sources */,
+				8A3BE5EC297F260F007817E8 /* RaiseFunding.swift in Sources */,
+				8A3BE5FC297F2F6B007817E8 /* NotificarionMetadata.swift in Sources */,
+				8A3BE5F8297F2DF5007817E8 /* NotificationAction.swift in Sources */,
+				8A3BE604297F3038007817E8 /* NotificationMetadataPost.swift in Sources */,
+				8A3BE5EA297F24E7007817E8 /* StockFunding.swift in Sources */,
+				8A3BE5DE297F20B5007817E8 /* LicenseOrCertificate.swift in Sources */,
+				8A3BE5D0297F033C007817E8 /* Job.swift in Sources */,
+				8A3BE602297F3004007817E8 /* NotificationMetadataPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +473,7 @@
 		8A3BE5B6297EF935007817E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -356,6 +494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +503,7 @@
 		8A3BE5B7297EF935007817E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -392,6 +532,7 @@
 		8A3BE5B9297EF935007817E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6TW9S5N48Q;
@@ -408,6 +549,7 @@
 		8A3BE5BA297EF935007817E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6TW9S5N48Q;
