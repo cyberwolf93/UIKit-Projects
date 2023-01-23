@@ -17,9 +17,11 @@ class ProfileBarButtonItem: UIBarButtonItem {
     
     let size: CGSize
     
-    init(size: CGSize) {
+    init(size: CGSize, target: AnyObject?, action: Selector?) {
         self.size = size
         super.init()
+        self.target = target
+        self.action = action
     }
     
     required init?(coder: NSCoder) {
@@ -29,10 +31,12 @@ class ProfileBarButtonItem: UIBarButtonItem {
     func createBarButton() {
         let view = UIView(frame: CGRect(x: 0, y: 0, width: self.size.width, height: self.size.height))
         let imageView = UIImageView()
-        imageView.frame = view.frame
+        imageView.frame = CGRect(x: -5, y: 0, width: view.frame.width, height: view.frame.height)
         imageView.clipsToBounds = true
         view.addSubview(imageView)
         view.layer.cornerRadius = imageView.frame.width / 2
+        let tapGasture = UITapGestureRecognizer(target: self.target, action: self.action)
+        view.addGestureRecognizer(tapGasture)
         self.customView = view
         
         self.viewModel?.getImageData(completion: { [weak self] data in
