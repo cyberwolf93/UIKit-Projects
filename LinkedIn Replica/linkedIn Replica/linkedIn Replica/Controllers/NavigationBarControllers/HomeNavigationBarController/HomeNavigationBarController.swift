@@ -10,11 +10,20 @@ import UIKit
 protocol HomeNavigationBarControllerDelegate: NSObjectProtocol {
     func searchDidBeginEditing()
     func searchDidEndEditing()
+    func profileBarButtonDidClick()
+    func messageBarButtonDidClick()
 }
 
-class CustomUINavigationBarDelegate:NSObject,  UINavigationBarDelegate {
-    func position(for bar: UIBarPositioning) -> UIBarPosition {
-        return .topAttached
+
+// implement default values for HomeNavigationBarControllerDelegate
+extension HomeNavigationBarControllerDelegate {
+    func searchDidBeginEditing() {}
+    func searchDidEndEditing() {}
+    func profileBarButtonDidClick() {
+        NotificationCenter.default.post(Notification(name: Notification.Name.profileBarButtonClicked))
+    }
+    func messageBarButtonDidClick() {
+        NotificationCenter.default.post(Notification(name: Notification.Name.messageBarButtonClicked))
     }
 }
 
@@ -44,7 +53,6 @@ class HomeNavigationBarController: NSObject {
         navigationBar.barTintColor = UIColor.appSecondaryBackground
         navigationBar.isTranslucent = false
         navigationBar.barStyle = .default
-        navigationBar.delegate = CustomUINavigationBarDelegate()
         
     }
     
@@ -52,10 +60,11 @@ class HomeNavigationBarController: NSObject {
     func createProfileBarButtonItem(){
         let size = CGSize(width: navigationBar.frame.height  * 0.8,
                           height: navigationBar.frame.height  * 0.8)
-        let profileBarItem = ProfileBarButtonItem(size: size)
+        
+        let profileBarItem = ProfileBarButtonItem(size: size, target: self, action: #selector(profileBarButtonDidClick))
         let profileBarItemViewModel = ProfileBarButtonItemViewModel(imageUrl: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png")
         profileBarItem.viewModel = profileBarItemViewModel
-        self.navigationItem.setLeftBarButton(profileBarItem, animated: false)
+        self.navigationItem.setLeftBarButtonItems([UIBarButtonItem(), UIBarButtonItem(), UIBarButtonItem(),UIBarButtonItem(),profileBarItem], animated: false)
     }
     
     // Create searchbar controller
@@ -63,6 +72,7 @@ class HomeNavigationBarController: NSObject {
         self.searchBar = UISearchBar()
         self.searchBar?.searchTextField.attributedPlaceholder = NSAttributedString(string: "home_navigation_bar_search".localizedString(),
                                                                                    attributes: [NSAttributedString.Key.foregroundColor:UIColor.secondaryLabel])
+        searchBar?.frame = self.navigationItem.titleView?.frame ?? .zero
         self.navigationItem.titleView = searchBar
         searchBar?.delegate = self
     }
@@ -71,9 +81,21 @@ class HomeNavigationBarController: NSObject {
         let chatBarItem = UIBarButtonItem(image: UIImage(systemName: "ellipsis.bubble.fill"),
                                           style: .plain,
                                           target: self,
-                                          action: nil)
+                                          action: #selector(messageBarButtonDidClick))
         chatBarItem.tintColor = UIColor.appUnselectedIcon
-        navigationItem.setRightBarButton(chatBarItem, animated: false)
+        chatBarItem.imageInsets = UIEdgeInsets(top: 0, left: -15, bottom: 0, right: 0)
+        navigationItem.rightBarButtonItems = [UIBarButtonItem(), chatBarItem]
+    }
+    
+    //MARK: Actions
+    @objc
+    func profileBarButtonDidClick() {
+        self.delegate?.profileBarButtonDidClick()
+    }
+    
+    @objc
+    func messageBarButtonDidClick() {
+        self.delegate?.messageBarButtonDidClick()
     }
     
     
