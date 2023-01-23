@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainTabBarViewController: UITabBarController {
+class MainTabBarViewController: UITabBarController, DescendantforContainerTransitionController {
     
     //MARK: Views
     var viewTabBarSelection: UIView?
@@ -16,16 +16,26 @@ class MainTabBarViewController: UITabBarController {
     //MARK: Variables
     let numberOfbarItems = 5
     static let storyboardId: String = "MainTabBarViewControllerVCID"
+    weak var mainContainerTransitionController: MainContainerTransitionController?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.delegate = self
         initUI()
+        addViewTransitionPanGesture()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print("view did appear")
+    }
+    
+    //MARK: - Helper methods
+    func addViewTransitionPanGesture(){
+        if let transitionContainer = self.mainContainerTransitionController {
+            let gesture = UIPanGestureRecognizer(target: transitionContainer, action: #selector(transitionContainer.handlePanGestureRecognizer(_:)))
+            self.view.addGestureRecognizer(gesture)
+        }
     }
     
     //MARK: - UI Customization
