@@ -8,6 +8,6 @@
 import Foundation
 
 public struct NotificationMetadataNews: NotificationMetadata {
-    let title: String
-    let link: String
+    public let title: String
+    public let link: String
 }

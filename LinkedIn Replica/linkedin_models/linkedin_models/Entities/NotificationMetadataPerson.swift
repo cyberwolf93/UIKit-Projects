@@ -8,5 +8,5 @@
 import Foundation
 
 public struct NotificationMetadataPerson: NotificationMetadata {
-    let person: PersonIdentity
+    public let person: PersonIdentity
 }

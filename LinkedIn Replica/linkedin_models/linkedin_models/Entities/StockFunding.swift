@@ -8,14 +8,14 @@
 import Foundation
 
 public struct StockFunding: Funding {
-    let sympol: String
-    let market: String
-    let lastPrice: Int
-    let currency: String
-    let gains: Int
-    let gainsPercentage: Int
-    let lastUpdate: Date
-    let openPrice: Int
-    let priceDayHigh: Int
-    let priceDayLow: Int
+    public let sympol: String
+    public let market: String
+    public let lastPrice: Int
+    public let currency: String
+    public let gains: Int
+    public let gainsPercentage: Int
+    public let lastUpdate: Date
+    public let openPrice: Int
+    public let priceDayHigh: Int
+    public let priceDayLow: Int
 }

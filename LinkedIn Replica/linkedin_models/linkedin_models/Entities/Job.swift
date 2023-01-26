@@ -8,17 +8,17 @@
 import Foundation
 
 public struct Job {
-    let title: String
-    let iconUrl: String
-    let company: CompanyIdentity
-    let location: String
-    let workPlace: WorkPlaceType
-    var minSalary: String?
-    var maxSalary: String?
-    let date: Date
-    let isEasyApply: Bool = false
-    let numberOfApplicants: Int
-    let positionType: PositionType
-    let positionLevel: PositionLevelType
-    let topSkills: [String]
+    public let title: String
+    public let iconUrl: String
+    public let company: CompanyIdentity
+    public let location: String
+    public let workPlace: WorkPlaceType
+    public var minSalary: String?
+    public var maxSalary: String?
+    public let date: Date
+    public let isEasyApply: Bool = false
+    public let numberOfApplicants: Int
+    public let positionType: PositionType
+    public let positionLevel: PositionLevelType
+    public let topSkills: [String]
 }

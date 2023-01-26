@@ -8,9 +8,9 @@
 import Foundation
 
 public struct LocationEntity {
-    let address: String
-    let isPrimary: Bool
-    let latitude: String
-    let longitude: String
-    let country: String
+    public let address: String
+    public let isPrimary: Bool
+    public let latitude: String
+    public let longitude: String
+    public let country: String
 }

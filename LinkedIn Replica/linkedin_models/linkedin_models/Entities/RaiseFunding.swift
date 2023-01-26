@@ -8,9 +8,9 @@
 import Foundation
 
 public struct RaiseFunding: Funding {
-    let numberOfRound: Int
-    let date: Date
-    let numberOfInvestors: Int
-    let amount: Int
-    let currency: String
+    public let numberOfRound: Int
+    public let date: Date
+    public let numberOfInvestors: Int
+    public let amount: Int
+    public let currency: String
 }

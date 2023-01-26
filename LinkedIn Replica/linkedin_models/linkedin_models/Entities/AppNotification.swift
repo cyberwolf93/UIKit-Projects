@@ -8,9 +8,9 @@
 import Foundation
 
 public struct AppNotification {
-    let title: String
-    let iconUrl: String
-    let type: NotificationType
-    let action: NotificationAction
-    let metaData: NotificationMetadata
+    public let title: String
+    public let iconUrl: String
+    public let type: NotificationType
+    public let action: NotificationAction
+    public let metaData: NotificationMetadata
 }

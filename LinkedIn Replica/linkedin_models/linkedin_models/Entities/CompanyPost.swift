@@ -22,5 +22,5 @@ public struct CompanyPost: Post {
     public var numberOfThinking: Int64
     public var numberOfComments: Int64
     public var numberOfShares: Int64
-    let company: CompanyIdentity
+    public let company: CompanyIdentity
 }

@@ -7,15 +7,15 @@
 
 import Foundation
 
-public struct ExperineceEntity {
-    let title: String
-    let headline: String
-    let positionType: String
-    let location: String
-    let isCurrentyActive: Bool
-    let startDate: Date
-    let endDate: Date
-    let description: String
-    let company: CompanyIdentity
-    let skills: [String]
+public struct ExperienceEntity {
+    public let title: String
+    public let headline: String
+    public let positionType: String
+    public let location: String
+    public let isCurrentyActive: Bool
+    public let startDate: Date
+    public let endDate: Date
+    public let description: String
+    public let company: CompanyIdentity
+    public let skills: [String]
 }

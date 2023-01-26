@@ -8,5 +8,5 @@
 import Foundation
 
 public struct NotificationMetadataJob: NotificationMetadata {
-    let job: Job
+    public let job: Job
 }

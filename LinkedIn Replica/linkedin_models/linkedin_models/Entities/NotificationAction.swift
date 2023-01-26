@@ -8,6 +8,6 @@
 import Foundation
 
 public struct NotificationAction {
-    let name: String
-    let type: NotificationActionType
+    public let name: String
+    public let type: NotificationActionType
 }

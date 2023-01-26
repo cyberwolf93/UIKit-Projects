@@ -8,10 +8,10 @@
 import Foundation
 
 public struct LicenseOrCertificate {
-    let name: String
-    let organizationName: String
-    let issueDate: Date
-    let expirationDate: Date?
-    let certificateId: String?
-    let certificateUrl: String?
+    public let name: String
+    public let organizationName: String
+    public let issueDate: Date
+    public let expirationDate: Date?
+    public let certificateId: String?
+    public let certificateUrl: String?
 }

@@ -15,7 +15,7 @@ public struct PersonIdentity: Identity {
     public let jobTitle: String
     public var currentCompany: CompanyIdentity?
     public let about: String
-    public let experience: [ExperineceEntity] = []
+    public let experience: [ExperienceEntity] = []
     public let education: [EducationEntity] = []
     public let licensesAndCerts: [LicenseOrCertificate] = []
     public let skills: [String] = []

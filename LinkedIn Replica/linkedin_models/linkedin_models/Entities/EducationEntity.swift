@@ -8,12 +8,12 @@
 import Foundation
 
 public struct EducationEntity {
-    let schoolName: String
-    let degree: String
-    let fieldOfStudy: String
-    let startDate: Date
-    let endDate: Date
-    let grade: String?
-    let description: String
-    let country: String
+    public let schoolName: String
+    public let degree: String
+    public let fieldOfStudy: String
+    public let startDate: Date
+    public let endDate: Date
+    public let grade: String?
+    public let description: String
+    public let country: String
 }
