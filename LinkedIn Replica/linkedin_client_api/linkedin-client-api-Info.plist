@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>feed_base_url</key>
+	<string>https://linkedin.com/feed</string>
+	<key>job_base_url</key>
+	<string>https://linkedin.com/job</string>
+	<key>notification_base_url</key>
+	<string>https://linkedin.com/notification</string>
+</dict>
+</plist>

@@ -5,6 +5,9 @@
       location = "group:linkedin_models/linkedin_models.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:linkedin_client_api/linkedin_client_api.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:linkedIn_Replica/linkedIn_Replica.xcodeproj">
    </FileRef>
 </Workspace>
