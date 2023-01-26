@@ -7,8 +7,7 @@
 
 import Foundation
 struct BaseUrls {
-    static let userBaseUrl = PlistManager.shared.base_url + "/user"
-    static let foodEntry = PlistManager.shared.base_url + "/foodentry"
+    
 }
 
 enum HttpMethods: String {

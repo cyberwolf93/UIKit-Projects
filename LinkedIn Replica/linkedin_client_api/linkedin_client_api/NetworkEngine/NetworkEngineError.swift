@@ -22,17 +22,17 @@ extension NetworkEngineError: LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .invalidUrl:
-            return String.localizedString(with: "network_core_invalid_url")
+            return "network_core_invalid_url"
         case .invalidData:
-            return String.localizedString(with: "network_core_nod_data")
+            return "network_core_nod_data"
         case .badRequest:
-            return String.localizedString(with: "network_core_bad_request")
+            return  "network_core_bad_request"
         case .serverError:
-            return String.localizedString(with: "network_core_server_error")
+            return  "network_core_server_error"
         case .unAuthorized:
-            return String.localizedString(with: "network_core_server_unauthorized")
+            return  "network_core_server_unauthorized"
         case .notFound:
-            return String.localizedString(with: "network_core_server_not_found")
+            return  "network_core_server_not_found"
         }
     }
 }

@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8A3BE6452982AAAC007817E8 /* linkedin_client_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3BE6282982AAAC007817E8 /* linkedin_client_api.h */; };
-		8A3BE6472982AAAC007817E8 /* SigninResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE62D2982AAAC007817E8 /* SigninResponse.swift */; };
+		8A3BE6472982AAAC007817E8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE62D2982AAAC007817E8 /* Person.swift */; };
 		8A3BE6492982AAAC007817E8 /* BaseNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6302982AAAC007817E8 /* BaseNetworkRequest.swift */; };
 		8A3BE64E2982AAAC007817E8 /* CreateFoodEntryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6382982AAAC007817E8 /* CreateFoodEntryRequest.swift */; };
-		8A3BE6532982AAAC007817E8 /* FoodEntryCoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE63E2982AAAC007817E8 /* FoodEntryCoreManager.swift */; };
 		8A3BE6542982AAAC007817E8 /* NetworkCoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE63F2982AAAC007817E8 /* NetworkCoreManager.swift */; };
 		8A3BE6552982AAAC007817E8 /* UserCoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6402982AAAC007817E8 /* UserCoreManager.swift */; };
 		8A3BE6562982AAAC007817E8 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6422982AAAC007817E8 /* NetworkEngine.swift */; };
@@ -20,6 +19,17 @@
 		8A3BE65A2982AB3D007817E8 /* linkedin_models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3BE6592982AB3D007817E8 /* linkedin_models.framework */; };
 		8A3BE65B2982AB3D007817E8 /* linkedin_models.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3BE6592982AB3D007817E8 /* linkedin_models.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8A3BE65F2982B0D8007817E8 /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE65E2982B0D8007817E8 /* PlistManager.swift */; };
+		8A3BE6622982B4B6007817E8 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6612982B4B6007817E8 /* Company.swift */; };
+		8A3BE6642982B500007817E8 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6632982B500007817E8 /* Job.swift */; };
+		8A3BE6662982CB0F007817E8 /* AppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6652982CB0F007817E8 /* AppNotification.swift */; };
+		8A3BE6682982CB7E007817E8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6672982CB7E007817E8 /* Post.swift */; };
+		8A3BE66A2982CC4F007817E8 /* ExperienceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6692982CC4F007817E8 /* ExperienceEntity.swift */; };
+		8A3BE66C2982CD00007817E8 /* EducationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE66B2982CD00007817E8 /* EducationEntity.swift */; };
+		8A3BE66E2982CD31007817E8 /* LicenseOrCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE66D2982CD31007817E8 /* LicenseOrCertificate.swift */; };
+		8A3BE6702982CD7F007817E8 /* Funding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE66F2982CD7F007817E8 /* Funding.swift */; };
+		8A3BE6722982CDE9007817E8 /* LocationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6712982CDE9007817E8 /* LocationEntity.swift */; };
+		8A3BE6742982CE47007817E8 /* NotificationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6732982CE47007817E8 /* NotificationAction.swift */; };
+		8A3BE6762982CF8C007817E8 /* NotificationMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6752982CF8C007817E8 /* NotificationMetadata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,10 +49,9 @@
 /* Begin PBXFileReference section */
 		8A34745A278F4B5D0064DB29 /* linkedin_client_api.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = linkedin_client_api.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3BE6282982AAAC007817E8 /* linkedin_client_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linkedin_client_api.h; sourceTree = "<group>"; };
-		8A3BE62D2982AAAC007817E8 /* SigninResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninResponse.swift; sourceTree = "<group>"; };
+		8A3BE62D2982AAAC007817E8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		8A3BE6302982AAAC007817E8 /* BaseNetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNetworkRequest.swift; sourceTree = "<group>"; };
 		8A3BE6382982AAAC007817E8 /* CreateFoodEntryRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFoodEntryRequest.swift; sourceTree = "<group>"; };
-		8A3BE63E2982AAAC007817E8 /* FoodEntryCoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodEntryCoreManager.swift; sourceTree = "<group>"; };
 		8A3BE63F2982AAAC007817E8 /* NetworkCoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCoreManager.swift; sourceTree = "<group>"; };
 		8A3BE6402982AAAC007817E8 /* UserCoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCoreManager.swift; sourceTree = "<group>"; };
 		8A3BE6422982AAAC007817E8 /* NetworkEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
@@ -51,6 +60,17 @@
 		8A3BE6592982AB3D007817E8 /* linkedin_models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = linkedin_models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3BE65E2982B0D8007817E8 /* PlistManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
 		8A3BE6602982B148007817E8 /* linkedin-client-api-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "linkedin-client-api-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8A3BE6612982B4B6007817E8 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		8A3BE6632982B500007817E8 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		8A3BE6652982CB0F007817E8 /* AppNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotification.swift; sourceTree = "<group>"; };
+		8A3BE6672982CB7E007817E8 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8A3BE6692982CC4F007817E8 /* ExperienceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceEntity.swift; sourceTree = "<group>"; };
+		8A3BE66B2982CD00007817E8 /* EducationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationEntity.swift; sourceTree = "<group>"; };
+		8A3BE66D2982CD31007817E8 /* LicenseOrCertificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseOrCertificate.swift; sourceTree = "<group>"; };
+		8A3BE66F2982CD7F007817E8 /* Funding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funding.swift; sourceTree = "<group>"; };
+		8A3BE6712982CDE9007817E8 /* LocationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationEntity.swift; sourceTree = "<group>"; };
+		8A3BE6732982CE47007817E8 /* NotificationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAction.swift; sourceTree = "<group>"; };
+		8A3BE6752982CF8C007817E8 /* NotificationMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMetadata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +128,18 @@
 		8A3BE62C2982AAAC007817E8 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
-				8A3BE62D2982AAAC007817E8 /* SigninResponse.swift */,
+				8A3BE62D2982AAAC007817E8 /* Person.swift */,
+				8A3BE6612982B4B6007817E8 /* Company.swift */,
+				8A3BE6632982B500007817E8 /* Job.swift */,
+				8A3BE6652982CB0F007817E8 /* AppNotification.swift */,
+				8A3BE6672982CB7E007817E8 /* Post.swift */,
+				8A3BE6692982CC4F007817E8 /* ExperienceEntity.swift */,
+				8A3BE66B2982CD00007817E8 /* EducationEntity.swift */,
+				8A3BE66D2982CD31007817E8 /* LicenseOrCertificate.swift */,
+				8A3BE66F2982CD7F007817E8 /* Funding.swift */,
+				8A3BE6712982CDE9007817E8 /* LocationEntity.swift */,
+				8A3BE6732982CE47007817E8 /* NotificationAction.swift */,
+				8A3BE6752982CF8C007817E8 /* NotificationMetadata.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -140,7 +171,6 @@
 		8A3BE63D2982AAAC007817E8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8A3BE63E2982AAAC007817E8 /* FoodEntryCoreManager.swift */,
 				8A3BE63F2982AAAC007817E8 /* NetworkCoreManager.swift */,
 				8A3BE6402982AAAC007817E8 /* UserCoreManager.swift */,
 			);
@@ -257,14 +287,24 @@
 			files = (
 				8A3BE65F2982B0D8007817E8 /* PlistManager.swift in Sources */,
 				8A3BE64E2982AAAC007817E8 /* CreateFoodEntryRequest.swift in Sources */,
-				8A3BE6472982AAAC007817E8 /* SigninResponse.swift in Sources */,
+				8A3BE6472982AAAC007817E8 /* Person.swift in Sources */,
 				8A3BE6552982AAAC007817E8 /* UserCoreManager.swift in Sources */,
+				8A3BE6742982CE47007817E8 /* NotificationAction.swift in Sources */,
 				8A3BE6492982AAAC007817E8 /* BaseNetworkRequest.swift in Sources */,
+				8A3BE6682982CB7E007817E8 /* Post.swift in Sources */,
 				8A3BE6562982AAAC007817E8 /* NetworkEngine.swift in Sources */,
 				8A3BE6542982AAAC007817E8 /* NetworkCoreManager.swift in Sources */,
+				8A3BE6642982B500007817E8 /* Job.swift in Sources */,
+				8A3BE66C2982CD00007817E8 /* EducationEntity.swift in Sources */,
+				8A3BE6622982B4B6007817E8 /* Company.swift in Sources */,
+				8A3BE66A2982CC4F007817E8 /* ExperienceEntity.swift in Sources */,
+				8A3BE66E2982CD31007817E8 /* LicenseOrCertificate.swift in Sources */,
+				8A3BE6702982CD7F007817E8 /* Funding.swift in Sources */,
 				8A3BE6582982AAAC007817E8 /* NetworkEngineProtocol.swift in Sources */,
-				8A3BE6532982AAAC007817E8 /* FoodEntryCoreManager.swift in Sources */,
+				8A3BE6662982CB0F007817E8 /* AppNotification.swift in Sources */,
+				8A3BE6722982CDE9007817E8 /* LocationEntity.swift in Sources */,
 				8A3BE6572982AAAC007817E8 /* NetworkEngineError.swift in Sources */,
+				8A3BE6762982CF8C007817E8 /* NotificationMetadata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
