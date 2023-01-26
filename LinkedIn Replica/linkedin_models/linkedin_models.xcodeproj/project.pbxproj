@@ -144,7 +144,6 @@
 		8A3BE5C8297EFAB2007817E8 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				8A3BE5C9297EFADC007817E8 /* Identity.swift */,
 				8A3BE5CB297EFF93007817E8 /* PersonIdentity.swift */,
 				8A3BE5CD297F0101007817E8 /* CompanyIdentity.swift */,
 				8A3BE5CF297F033C007817E8 /* Job.swift */,
@@ -186,6 +185,7 @@
 				8A3BE5D3297F078C007817E8 /* Post.swift */,
 				8A3BE5E6297F2422007817E8 /* Funding.swift */,
 				8A3BE5FB297F2F6B007817E8 /* NotificarionMetadata.swift */,
+				8A3BE5C9297EFADC007817E8 /* Identity.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";

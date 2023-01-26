@@ -7,15 +7,19 @@
 
 import Foundation
 
-public struct CompanyIdentity {
-    let industry: IndustryType
-    let numberOfFollowers: Int64
-    let overView: String
-    let website: String
-    let companySize: Int
-    let headquarters: String
-    let type: CompanyType
-    let specialities: String
-    let funding: [Funding]
-    let locations: [LocationEntity]
+public struct CompanyIdentity: Identity {
+    public let id: String
+    public let name: String
+    public let profileImageUrl: String
+    public let coverImageUrl: String
+    public let industry: IndustryType
+    public let numberOfFollowers: Int64
+    public let overView: String
+    public let website: String
+    public let companySize: Int
+    public let headquarters: String
+    public let type: CompanyType
+    public let specialities: String
+    public let funding: [Funding]
+    public let locations: [LocationEntity]
 }

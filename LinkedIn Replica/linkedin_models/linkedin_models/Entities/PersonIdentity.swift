@@ -7,12 +7,16 @@
 
 import Foundation
 
-public struct PersonIdentity {
-    let jobTitle: String
-    var currentCompany: CompanyIdentity?
-    let about: String
-    let experience: [ExperineceEntity] = []
-    let education: [EducationEntity] = []
-    let licensesAndCerts: [LicenseOrCertificate] = []
-    let skills: [String] = []
+public struct PersonIdentity: Identity {
+    public let id: String
+    public let name: String
+    public let profileImageUrl: String
+    public let coverImageUrl: String
+    public let jobTitle: String
+    public var currentCompany: CompanyIdentity?
+    public let about: String
+    public let experience: [ExperineceEntity] = []
+    public let education: [EducationEntity] = []
+    public let licensesAndCerts: [LicenseOrCertificate] = []
+    public let skills: [String] = []
 }
