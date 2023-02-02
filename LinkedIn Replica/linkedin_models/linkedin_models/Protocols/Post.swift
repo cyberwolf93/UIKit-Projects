@@ -12,7 +12,7 @@ public protocol Post {
     var iconUrl: String { get }
     var description: String {get}
     var date: Date {get}
-    var type: String {get} //TODO: CREAT ENUM image - video ....
+    var type: PostType {get}
     var numberOfLikes: Int64 {get}
     var numberOfCeleberations: Int64 {get}
     var numberOfLove: Int64 {get}

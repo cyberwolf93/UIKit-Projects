@@ -8,6 +8,7 @@
 import Foundation
 
 public struct StockFunding: Funding {
+    public let type: FundingType
     public let sympol: String
     public let market: String
     public let lastPrice: Int

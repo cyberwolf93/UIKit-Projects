@@ -10,11 +10,11 @@ import Foundation
 struct ExperienceEntity: Encodable {
     let title: String
     let headline: String
-    let positionType: String
+    let positionType: Int
     let location: String
     let isCurrentyActive: Bool
     let startDate: Date
-    let endDate: Date
+    let endDate: Date?
     let description: String
     let company: Company
     let skills: [String]

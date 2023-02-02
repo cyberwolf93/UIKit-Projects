@@ -38,6 +38,8 @@
 		8A3BE600297F2FC5007817E8 /* NotificationMetadataNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE5FF297F2FC5007817E8 /* NotificationMetadataNews.swift */; };
 		8A3BE602297F3004007817E8 /* NotificationMetadataPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE601297F3004007817E8 /* NotificationMetadataPerson.swift */; };
 		8A3BE604297F3038007817E8 /* NotificationMetadataPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE603297F3038007817E8 /* NotificationMetadataPost.swift */; };
+		8A3BE69E2982DF77007817E8 /* PostType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE69D2982DF77007817E8 /* PostType.swift */; };
+		8A3BE6A02982E0B6007817E8 /* FundingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE69F2982E0B6007817E8 /* FundingType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		8A3BE5FF297F2FC5007817E8 /* NotificationMetadataNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMetadataNews.swift; sourceTree = "<group>"; };
 		8A3BE601297F3004007817E8 /* NotificationMetadataPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMetadataPerson.swift; sourceTree = "<group>"; };
 		8A3BE603297F3038007817E8 /* NotificationMetadataPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMetadataPost.swift; sourceTree = "<group>"; };
+		8A3BE69D2982DF77007817E8 /* PostType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostType.swift; sourceTree = "<group>"; };
+		8A3BE69F2982E0B6007817E8 /* FundingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundingType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,8 @@
 				8A3BE5F3297F2C81007817E8 /* PositionLevelType.swift */,
 				8A3BE5F5297F2D25007817E8 /* NotificationType.swift */,
 				8A3BE5F9297F2F21007817E8 /* NotificationActionType.swift */,
+				8A3BE69D2982DF77007817E8 /* PostType.swift */,
+				8A3BE69F2982E0B6007817E8 /* FundingType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -321,7 +327,9 @@
 				8A3BE5E7297F2422007817E8 /* Funding.swift in Sources */,
 				8A3BE5F2297F298B007817E8 /* PositionType.swift in Sources */,
 				8A3BE5EC297F260F007817E8 /* RaiseFunding.swift in Sources */,
+				8A3BE69E2982DF77007817E8 /* PostType.swift in Sources */,
 				8A3BE5FC297F2F6B007817E8 /* NotificarionMetadata.swift in Sources */,
+				8A3BE6A02982E0B6007817E8 /* FundingType.swift in Sources */,
 				8A3BE5F8297F2DF5007817E8 /* NotificationAction.swift in Sources */,
 				8A3BE604297F3038007817E8 /* NotificationMetadataPost.swift in Sources */,
 				8A3BE5EA297F24E7007817E8 /* StockFunding.swift in Sources */,

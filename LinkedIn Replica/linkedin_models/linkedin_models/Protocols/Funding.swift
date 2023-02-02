@@ -7,5 +7,5 @@
 
 import Foundation
 public protocol Funding {
-    
+    let type: FundingType {get}
 }

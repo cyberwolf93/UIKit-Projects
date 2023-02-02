@@ -8,6 +8,7 @@
 import Foundation
 
 public struct RaiseFunding: Funding {
+    public let type: FundingType
     public let numberOfRound: Int
     public let date: Date
     public let numberOfInvestors: Int

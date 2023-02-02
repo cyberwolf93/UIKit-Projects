@@ -10,14 +10,14 @@ import Foundation
 struct Funding: Encodable {
     let sympol: String
     let market: String
-    let lastPrice: Int
+    let lastPrice: Double
     let currency: String
-    let gains: Int
+    let gains: Double
     let gainsPercentage: Int
     let lastUpdate: Date
-    let openPrice: Int
-    let priceDayHigh: Int
-    let priceDayLow: Int
+    let openPrice: Double
+    let priceDayHigh: Double
+    let priceDayLow: Double
     let numberOfRound: Int
     let lastRoundDate: Date
     let numberOfInvestors: Int

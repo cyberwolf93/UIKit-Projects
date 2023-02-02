@@ -12,7 +12,7 @@ public struct PersonPost: Post {
     public var iconUrl: String
     public var description: String
     public var date: Date
-    public var type: String
+    public var type: PostType
     public var numberOfLikes: Int64
     public var numberOfCeleberations: Int64
     public var numberOfLove: Int64

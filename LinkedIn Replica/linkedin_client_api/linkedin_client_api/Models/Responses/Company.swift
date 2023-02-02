@@ -12,13 +12,13 @@ struct Company: Encodable {
     let name: String
     let profileImageUrl: String
     let coverImageUrl: String
-    let industry: String
+    let industry: String?
     let numberOfFollowers: Int64
-    let overView: String
-    let website: String
-    let companySize: Int
-    let headquarters: String
-    let type: Int
+    let overView: String?
+    let website: String?
+    let companySize: Int?
+    let headquarters: String?
+    let type: Int?
     let specialities: String
     let funding: [Funding]
     let locations: [LocationEntity]

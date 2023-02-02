@@ -13,7 +13,7 @@ struct EducationEntity: Encodable {
     let startDate: Date
     let endDate: Date
     let grade: String?
-    let description: String
+    let description: String?
     let country: String
     
     public enum CodingKeys: String, CodingKey {
