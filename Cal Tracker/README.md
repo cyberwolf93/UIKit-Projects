@@ -5,10 +5,10 @@
 This app made to help people track their calories
 
 ## Screenshots
-<img src="screenshots/sign-in.PNG" width="200">
-<img src="screenshots/dashboard.PNG" width="200">
-<img src="screenshots/add-entry.PNG" width="200">
-<img src="screenshots/account.PNG" width="200">
+<img src="screenshots/sign-in" width="200">
+<img src="screenshots/dashboard" width="200">
+<img src="screenshots/add-entry" width="200">
+<img src="screenshots/account" width="200">
 
 
 ## Installation
