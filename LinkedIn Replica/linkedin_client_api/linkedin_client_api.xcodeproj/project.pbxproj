@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A2A55442991AEBD00C7C008 /* linkedin-client-api-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A2A55432991AEBD00C7C008 /* linkedin-client-api-Info.plist */; };
 		8A3BE6452982AAAC007817E8 /* linkedin_client_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3BE6282982AAAC007817E8 /* linkedin_client_api.h */; };
 		8A3BE6472982AAAC007817E8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE62D2982AAAC007817E8 /* Person.swift */; };
 		8A3BE6492982AAAC007817E8 /* BaseNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE6302982AAAC007817E8 /* BaseNetworkRequest.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8A2A55432991AEBD00C7C008 /* linkedin-client-api-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "linkedin-client-api-Info.plist"; sourceTree = SOURCE_ROOT; };
 		8A34745A278F4B5D0064DB29 /* linkedin_client_api.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = linkedin_client_api.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3BE6282982AAAC007817E8 /* linkedin_client_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linkedin_client_api.h; sourceTree = "<group>"; };
 		8A3BE62D2982AAAC007817E8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -59,7 +61,6 @@
 		8A3BE6442982AAAC007817E8 /* NetworkEngineProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEngineProtocol.swift; sourceTree = "<group>"; };
 		8A3BE6592982AB3D007817E8 /* linkedin_models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = linkedin_models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3BE65E2982B0D8007817E8 /* PlistManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
-		8A3BE6602982B148007817E8 /* linkedin-client-api-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "linkedin-client-api-Info.plist"; sourceTree = SOURCE_ROOT; };
 		8A3BE6612982B4B6007817E8 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		8A3BE6632982B500007817E8 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		8A3BE6652982CB0F007817E8 /* AppNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotification.swift; sourceTree = "<group>"; };
@@ -105,7 +106,7 @@
 		8A3BE6272982AAAC007817E8 /* linkedin_client_api */ = {
 			isa = PBXGroup;
 			children = (
-				8A3BE6602982B148007817E8 /* linkedin-client-api-Info.plist */,
+				8A2A55432991AEBD00C7C008 /* linkedin-client-api-Info.plist */,
 				8A3BE6282982AAAC007817E8 /* linkedin_client_api.h */,
 				8A3BE65D2982B0C1007817E8 /* Utils */,
 				8A3BE62B2982AAAC007817E8 /* Models */,
@@ -275,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2A55442991AEBD00C7C008 /* linkedin-client-api-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

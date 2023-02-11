@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  linkedIn Replica
+
+  Created by Ahmed Mohiy on 16/01/2023.
+  
+*/
+
+
+//MARK: MainTabBarViewController
+"tab_bar_item_home" = "Home";
+"tab_bar_item_my_network" = "My Network";
+"tab_bar_item_post" = "Post";
+"tab_bar_item_notifications" = "Notifications";
+"tab_bar_item_jobs" = "Jobs";
+
+//MARK: Home Navigation Bar Controller
+"home_navigation_bar_search" = "Search";
+
+
+// MARK: Home screen
+"home_like" = "Like";
+"home_comment_singular" = "Comment";
+"home_comment_plural" = "Comments";
+"home_share_singular" = "Share";
+"home_share_plural" = "Shares";
+"home_send" = "Send";
+
+

@@ -19,4 +19,14 @@ public struct PersonIdentity: Identity {
     public let education: [EducationEntity] = []
     public let licensesAndCerts: [LicenseOrCertificate] = []
     public let skills: [String] = []
+    
+    public init(id: String, name: String, profileImageUrl: String, coverImageUrl: String, jobTitle: String, currentCompany: CompanyIdentity? = nil, about: String) {
+        self.id = id
+        self.name = name
+        self.profileImageUrl = profileImageUrl
+        self.coverImageUrl = coverImageUrl
+        self.jobTitle = jobTitle
+        self.currentCompany = currentCompany
+        self.about = about
+    }
 }

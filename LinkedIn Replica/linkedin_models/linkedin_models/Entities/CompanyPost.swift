@@ -16,11 +16,12 @@ public struct CompanyPost: Post {
     public var numberOfLikes: Int64
     public var numberOfCeleberations: Int64
     public var numberOfLove: Int64
-    public var numberOfCare: Int64
+    public var numberOfSupport: Int64
     public var numberOfLaugh: Int64
-    public var numberOfIdea: Int64
-    public var numberOfThinking: Int64
+    public var numberOfInsightful: Int64
+    public var numberOfCurious: Int64
     public var numberOfComments: Int64
     public var numberOfShares: Int64
     public let company: CompanyIdentity
+    public let imageName: String
 }
