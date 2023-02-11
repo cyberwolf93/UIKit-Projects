@@ -32,4 +32,11 @@ extension UIColor {
             UIColor(named: "AppUnselectedIconColor") ?? .white
         }
     }
+    
+    
+    static var appViewSeparator: UIColor {
+        get {
+            UIColor(named: "ViewSeparator") ?? .white
+        }
+    }
 }

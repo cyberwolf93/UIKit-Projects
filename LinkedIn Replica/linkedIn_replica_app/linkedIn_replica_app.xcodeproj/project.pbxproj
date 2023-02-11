@@ -43,6 +43,7 @@
 		8A2A55BE2991B16F00C7C008 /* HomeSearchViewControllerNavigationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A55A02991B16F00C7C008 /* HomeSearchViewControllerNavigationBarController.swift */; };
 		8A2A55BF2991B16F00C7C008 /* HomeNavigationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A55A22991B16F00C7C008 /* HomeNavigationBarController.swift */; };
 		8A2A55C12991B3F500C7C008 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A55C02991B3F500C7C008 /* UIImageExtension.swift */; };
+		8A80F1F72998011E00937223 /* SideMenuViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80F1F62998011E00937223 /* SideMenuViewControllerViewModel.swift */; };
 		8A875DB4299421AD00E9D1C0 /* HomeCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A875DB3299421AD00E9D1C0 /* HomeCollectionViewLayout.swift */; };
 		8AA26F8B2992CB84003BC9F1 /* profile_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA26F8A2992CB84003BC9F1 /* profile_1.jpg */; };
 		8AA26F8D2992CBFA003BC9F1 /* google_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA26F8C2992CBFA003BC9F1 /* google_image.jpg */; };
@@ -100,6 +101,7 @@
 		8A2A55A02991B16F00C7C008 /* HomeSearchViewControllerNavigationBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSearchViewControllerNavigationBarController.swift; sourceTree = "<group>"; };
 		8A2A55A22991B16F00C7C008 /* HomeNavigationBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationBarController.swift; sourceTree = "<group>"; };
 		8A2A55C02991B3F500C7C008 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		8A80F1F62998011E00937223 /* SideMenuViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewControllerViewModel.swift; sourceTree = "<group>"; };
 		8A875DB3299421AD00E9D1C0 /* HomeCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewLayout.swift; sourceTree = "<group>"; };
 		8AA26F8A2992CB84003BC9F1 /* profile_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_1.jpg; sourceTree = "<group>"; };
 		8AA26F8C2992CBFA003BC9F1 /* google_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = google_image.jpg; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				8A2A55772991B16E00C7C008 /* SideMenuViewController.swift */,
+				8A80F1F62998011E00937223 /* SideMenuViewControllerViewModel.swift */,
 			);
 			path = SideMenuViewController;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 				8A2A55B62991B16F00C7C008 /* ProfileBarButtonItem.swift in Sources */,
 				8A2A55BC2991B16F00C7C008 /* MainContainerTransitionController+NavigationBarButtonTapped.swift in Sources */,
 				8A2A55AA2991B16F00C7C008 /* MyNetworkViewController.swift in Sources */,
+				8A80F1F72998011E00937223 /* SideMenuViewControllerViewModel.swift in Sources */,
 				8A2A55532991B07B00C7C008 /* AppDelegate.swift in Sources */,
 				8A2A55B72991B16F00C7C008 /* ProfileBarButtonItemViewModel.swift in Sources */,
 				8A2A55B82991B16F00C7C008 /* MainAppContainerViewController.swift in Sources */,

@@ -26,4 +26,9 @@
 "home_share_plural" = "Shares";
 "home_send" = "Send";
 
+// MARK: Sidemenu
+"sidemenu_view_profile" = "View profile";
+"sidemenu_groups" = "Groups";
+"sidemenu_events" = "Events";
+
 
