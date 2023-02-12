@@ -44,6 +44,16 @@
 		8A2A55BF2991B16F00C7C008 /* HomeNavigationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A55A22991B16F00C7C008 /* HomeNavigationBarController.swift */; };
 		8A2A55C12991B3F500C7C008 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A55C02991B3F500C7C008 /* UIImageExtension.swift */; };
 		8A80F1F72998011E00937223 /* SideMenuViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80F1F62998011E00937223 /* SideMenuViewControllerViewModel.swift */; };
+		8A80F1FB2999569F00937223 /* MyNetworkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80F1F92999569F00937223 /* MyNetworkCollectionViewCell.swift */; };
+		8A80F1FC2999569F00937223 /* MyNetworkCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A80F1FA2999569F00937223 /* MyNetworkCollectionViewCell.xib */; };
+		8A80F1FF2999672A00937223 /* MyNetworkCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80F1FE2999672A00937223 /* MyNetworkCollectionViewCellViewModel.swift */; };
+		8A80F20129996B0000937223 /* MyNetworkCellContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80F20029996B0000937223 /* MyNetworkCellContainer.swift */; };
+		8A80F20329996DA000937223 /* MyNetworkCellContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80F20229996DA000937223 /* MyNetworkCellContainerViewModel.swift */; };
+		8A80F207299972B000937223 /* MyNetworkFooterReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80F205299972B000937223 /* MyNetworkFooterReusableView.swift */; };
+		8A80F208299972B000937223 /* MyNetworkFooterReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A80F206299972B000937223 /* MyNetworkFooterReusableView.xib */; };
+		8A80F20A299974E400937223 /* MyNetworkViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80F209299974E400937223 /* MyNetworkViewControllerViewModel.swift */; };
+		8A80F20E299981BE00937223 /* MyNetworkHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A80F20C299981BE00937223 /* MyNetworkHeaderReusableView.swift */; };
+		8A80F20F299981BE00937223 /* MyNetworkHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A80F20D299981BE00937223 /* MyNetworkHeaderReusableView.xib */; };
 		8A875DB4299421AD00E9D1C0 /* HomeCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A875DB3299421AD00E9D1C0 /* HomeCollectionViewLayout.swift */; };
 		8AA26F8B2992CB84003BC9F1 /* profile_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA26F8A2992CB84003BC9F1 /* profile_1.jpg */; };
 		8AA26F8D2992CBFA003BC9F1 /* google_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AA26F8C2992CBFA003BC9F1 /* google_image.jpg */; };
@@ -102,6 +112,16 @@
 		8A2A55A22991B16F00C7C008 /* HomeNavigationBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationBarController.swift; sourceTree = "<group>"; };
 		8A2A55C02991B3F500C7C008 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		8A80F1F62998011E00937223 /* SideMenuViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewControllerViewModel.swift; sourceTree = "<group>"; };
+		8A80F1F92999569F00937223 /* MyNetworkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkCollectionViewCell.swift; sourceTree = "<group>"; };
+		8A80F1FA2999569F00937223 /* MyNetworkCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyNetworkCollectionViewCell.xib; sourceTree = "<group>"; };
+		8A80F1FE2999672A00937223 /* MyNetworkCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		8A80F20029996B0000937223 /* MyNetworkCellContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkCellContainer.swift; sourceTree = "<group>"; };
+		8A80F20229996DA000937223 /* MyNetworkCellContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkCellContainerViewModel.swift; sourceTree = "<group>"; };
+		8A80F205299972B000937223 /* MyNetworkFooterReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkFooterReusableView.swift; sourceTree = "<group>"; };
+		8A80F206299972B000937223 /* MyNetworkFooterReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyNetworkFooterReusableView.xib; sourceTree = "<group>"; };
+		8A80F209299974E400937223 /* MyNetworkViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkViewControllerViewModel.swift; sourceTree = "<group>"; };
+		8A80F20C299981BE00937223 /* MyNetworkHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkHeaderReusableView.swift; sourceTree = "<group>"; };
+		8A80F20D299981BE00937223 /* MyNetworkHeaderReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyNetworkHeaderReusableView.xib; sourceTree = "<group>"; };
 		8A875DB3299421AD00E9D1C0 /* HomeCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewLayout.swift; sourceTree = "<group>"; };
 		8AA26F8A2992CB84003BC9F1 /* profile_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_1.jpg; sourceTree = "<group>"; };
 		8AA26F8C2992CBFA003BC9F1 /* google_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = google_image.jpg; sourceTree = "<group>"; };
@@ -244,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				8A2A557B2991B16E00C7C008 /* MyNetworkViewController.swift */,
+				8A80F209299974E400937223 /* MyNetworkViewControllerViewModel.swift */,
 			);
 			path = MyNetworkViewController;
 			sourceTree = "<group>";
@@ -296,6 +317,10 @@
 		8A2A55882991B16F00C7C008 /* ReusableCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				8A80F20B2999819500937223 /* MyNetworkHeaderReusableView */,
+				8A80F2042999721D00937223 /* MyNetworkFooterReusableView */,
+				8A80F1FD299966A400937223 /* MyNetworkCellContainer */,
+				8A80F1F82999564900937223 /* MyNetworkCollectionViewCell */,
 				8A2A55892991B16F00C7C008 /* HomeFeedCollectionViewCell */,
 				8A2A558C2991B16F00C7C008 /* HomeFeedPostHeaderView */,
 				8A2A558E2991B16F00C7C008 /* HomeFeedPostFooterView */,
@@ -406,6 +431,43 @@
 			path = Persons;
 			sourceTree = "<group>";
 		};
+		8A80F1F82999564900937223 /* MyNetworkCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8A80F1F92999569F00937223 /* MyNetworkCollectionViewCell.swift */,
+				8A80F1FA2999569F00937223 /* MyNetworkCollectionViewCell.xib */,
+				8A80F1FE2999672A00937223 /* MyNetworkCollectionViewCellViewModel.swift */,
+			);
+			path = MyNetworkCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		8A80F1FD299966A400937223 /* MyNetworkCellContainer */ = {
+			isa = PBXGroup;
+			children = (
+				8A80F20029996B0000937223 /* MyNetworkCellContainer.swift */,
+				8A80F20229996DA000937223 /* MyNetworkCellContainerViewModel.swift */,
+			);
+			path = MyNetworkCellContainer;
+			sourceTree = "<group>";
+		};
+		8A80F2042999721D00937223 /* MyNetworkFooterReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				8A80F205299972B000937223 /* MyNetworkFooterReusableView.swift */,
+				8A80F206299972B000937223 /* MyNetworkFooterReusableView.xib */,
+			);
+			path = MyNetworkFooterReusableView;
+			sourceTree = "<group>";
+		};
+		8A80F20B2999819500937223 /* MyNetworkHeaderReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				8A80F20C299981BE00937223 /* MyNetworkHeaderReusableView.swift */,
+				8A80F20D299981BE00937223 /* MyNetworkHeaderReusableView.xib */,
+			);
+			path = MyNetworkHeaderReusableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -468,9 +530,12 @@
 				8A2A55B92991B16F00C7C008 /* Localizable.strings in Resources */,
 				8A2A555F2991B07D00C7C008 /* LaunchScreen.storyboard in Resources */,
 				8AA26F8B2992CB84003BC9F1 /* profile_1.jpg in Resources */,
+				8A80F20F299981BE00937223 /* MyNetworkHeaderReusableView.xib in Resources */,
 				8A2A555C2991B07D00C7C008 /* Assets.xcassets in Resources */,
 				8AA26F8D2992CBFA003BC9F1 /* google_image.jpg in Resources */,
+				8A80F208299972B000937223 /* MyNetworkFooterReusableView.xib in Resources */,
 				8A2A555A2991B07B00C7C008 /* Main.storyboard in Resources */,
+				8A80F1FC2999569F00937223 /* MyNetworkCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,19 +552,24 @@
 				8A2A55BC2991B16F00C7C008 /* MainContainerTransitionController+NavigationBarButtonTapped.swift in Sources */,
 				8A2A55AA2991B16F00C7C008 /* MyNetworkViewController.swift in Sources */,
 				8A80F1F72998011E00937223 /* SideMenuViewControllerViewModel.swift in Sources */,
+				8A80F1FB2999569F00937223 /* MyNetworkCollectionViewCell.swift in Sources */,
 				8A2A55532991B07B00C7C008 /* AppDelegate.swift in Sources */,
+				8A80F207299972B000937223 /* MyNetworkFooterReusableView.swift in Sources */,
 				8A2A55B72991B16F00C7C008 /* ProfileBarButtonItemViewModel.swift in Sources */,
 				8A2A55B82991B16F00C7C008 /* MainAppContainerViewController.swift in Sources */,
+				8A80F20129996B0000937223 /* MyNetworkCellContainer.swift in Sources */,
 				8A2A55B02991B16F00C7C008 /* StringExtension.swift in Sources */,
 				8A875DB4299421AD00E9D1C0 /* HomeCollectionViewLayout.swift in Sources */,
 				8A2A55B52991B16F00C7C008 /* HomeFeedPostFooterView.swift in Sources */,
 				8A2A55A92991B16F00C7C008 /* MessagesViewController.swift in Sources */,
+				8A80F20329996DA000937223 /* MyNetworkCellContainerViewModel.swift in Sources */,
 				8A2A55AE2991B16F00C7C008 /* HomeViewController.swift in Sources */,
 				8A2A55BE2991B16F00C7C008 /* HomeSearchViewControllerNavigationBarController.swift in Sources */,
 				8A2A55AD2991B16F00C7C008 /* HomeViewControllerViewModel.swift in Sources */,
 				8A2A55552991B07B00C7C008 /* SceneDelegate.swift in Sources */,
 				8A2A55BF2991B16F00C7C008 /* HomeNavigationBarController.swift in Sources */,
 				8A2A55A62991B16F00C7C008 /* UIWindowExtension.swift in Sources */,
+				8A80F20E299981BE00937223 /* MyNetworkHeaderReusableView.swift in Sources */,
 				8A2A55B22991B16F00C7C008 /* HomeFeedCellViewModel.swift in Sources */,
 				8A2A55AF2991B16F00C7C008 /* NotificationNameExtension.swift in Sources */,
 				8A2A55BB2991B16F00C7C008 /* MainContainerTransitionController.swift in Sources */,
@@ -507,11 +577,13 @@
 				8A2A55BD2991B16F00C7C008 /* MainContainerTransitionController+GestureHandling.swift in Sources */,
 				8A2A55BA2991B16F00C7C008 /* HomeSearchViewController.swift in Sources */,
 				8A2A55C12991B3F500C7C008 /* UIImageExtension.swift in Sources */,
+				8A80F20A299974E400937223 /* MyNetworkViewControllerViewModel.swift in Sources */,
 				8A2A55B42991B16F00C7C008 /* HomeFeedPostHeaderView.swift in Sources */,
 				8A2A55B32991B16F00C7C008 /* HomeFeedCollectionViewCell.swift in Sources */,
 				8A2A55A72991B16F00C7C008 /* NotificationsViewController.swift in Sources */,
 				8A2A55AC2991B16F00C7C008 /* MainTabBarViewController.swift in Sources */,
 				8A2A55AB2991B16F00C7C008 /* JobsViewController.swift in Sources */,
+				8A80F1FF2999672A00937223 /* MyNetworkCollectionViewCellViewModel.swift in Sources */,
 				8A2A55A42991B16F00C7C008 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

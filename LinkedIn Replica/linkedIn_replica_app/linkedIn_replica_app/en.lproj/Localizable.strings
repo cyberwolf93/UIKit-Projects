@@ -31,4 +31,13 @@
 "sidemenu_groups" = "Groups";
 "sidemenu_events" = "Events";
 
+//MARK: My network screen
+"mynetwork_screen_connect" = "Connect";
+"mynetwork_screen_mutual_connection" = "mutual connections";
+"mynetwork_screen_see_all" = "See all";
+"mynetwork_screen_section_industry_leaders_same_country" = "Industry Leaders Same Country";
+"mynetwork_screen_section_people_you_may_know_from_university" = "People you may know from University";
+"mynetwork_screen_section_software_engineer_you_may_know" = "Software engineer you may know";
+"mynetwork_screen_section_more_suggestions" = "More suggestions for you";
+
 

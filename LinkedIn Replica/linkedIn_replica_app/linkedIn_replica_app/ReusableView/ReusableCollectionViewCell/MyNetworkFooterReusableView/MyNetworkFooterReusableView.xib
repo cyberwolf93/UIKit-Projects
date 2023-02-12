@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="U6b-Vx-4bR" customClass="MyNetworkFooterReusableView" customModule="linkedIn_replica_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="81"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psq-dS-1A1">
+                    <rect key="frame" x="141.66666666666666" y="23" width="75" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xbG-QO-3ex">
+                    <rect key="frame" x="0.0" y="71" width="358" height="10"/>
+                    <color key="backgroundColor" name="AppBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="s5L-MN-7gg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="xbG-QO-3ex" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="26P-Bb-DSj"/>
+                <constraint firstAttribute="trailing" secondItem="xbG-QO-3ex" secondAttribute="trailing" id="Kbx-h3-o0V"/>
+                <constraint firstAttribute="bottom" secondItem="xbG-QO-3ex" secondAttribute="bottom" id="bMs-BY-CzR"/>
+                <constraint firstItem="Psq-dS-1A1" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="wJb-wK-97i"/>
+                <constraint firstItem="Psq-dS-1A1" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="x0D-W2-dfT"/>
+            </constraints>
+            <connections>
+                <outlet property="buttonSeeAll" destination="Psq-dS-1A1" id="FbF-J8-pio"/>
+            </connections>
+            <point key="canvasLocation" x="80" y="31.635071090047393"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <namedColor name="AppBackgroundColor">
+            <color red="0.95300000905990601" green="0.94900000095367432" blue="0.93699997663497925" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
