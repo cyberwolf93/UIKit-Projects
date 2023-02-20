@@ -16,6 +16,7 @@
 
 //MARK: Home Navigation Bar Controller
 "home_navigation_bar_search" = "Search";
+"home_navigation_bar_search_messages" = "Search messages";
 
 
 // MARK: Home screen
@@ -39,5 +40,9 @@
 "mynetwork_screen_section_people_you_may_know_from_university" = "People you may know from University";
 "mynetwork_screen_section_software_engineer_you_may_know" = "Software engineer you may know";
 "mynetwork_screen_section_more_suggestions" = "More suggestions for you";
+
+//MARK: Messages screen
+"message_mark_as_read" = "Mark as read";
+"message_archive" = "Archive";
 
 

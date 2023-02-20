@@ -79,7 +79,7 @@ class MyNetworkViewControllerViewModel {
     
     func getCellContentFor(section: Int, row: Int) -> [PersonIdentity] {
         let sectionId = sections[section]
-        guard var cellData = collectionViewData[sectionId] else {return []}
+        guard let cellData = collectionViewData[sectionId] else {return []}
         defer {
             collectionViewData[sectionId] = cellData
         }

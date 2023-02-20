@@ -27,37 +27,21 @@ extension HomeNavigationBarControllerDelegate {
     }
 }
 
-class HomeNavigationBarController: NSObject {
+class HomeNavigationBarController: BaseNavigationBarController {
     
     // MARK: Views declaration
-    let navigationBar: UINavigationBar
-    let navigationItem: UINavigationItem
     var searchBar: UISearchBar?
     
     // MARK: Variables
     weak var delegate: HomeNavigationBarControllerDelegate?
     
     
-    init(navigationBar: UINavigationBar, navigationItem: UINavigationItem) {
-        self.navigationBar = navigationBar
-        self.navigationItem = navigationItem
-        super.init()
-        initUI()
+    override init(navigationBar: UINavigationBar, navigationItem: UINavigationItem) {
+        super.init(navigationBar: navigationBar, navigationItem: navigationItem)
+        
         createProfileBarButtonItem()
         createSearchBarController()
         createChatBarButtonItem()
-    }
-    
-    func initUI(){
-        navigationBar.backgroundColor = UIColor.appSecondaryBackground
-        navigationBar.barTintColor = UIColor.appSecondaryBackground
-        navigationBar.isTranslucent = false
-        navigationBar.barStyle = .default
-        navigationBar.layer.shadowOffset = CGSize(width: 0, height: 0)
-        navigationBar.layer.shadowRadius = 1
-        navigationBar.layer.shadowColor = UIColor.appUnselectedIcon.cgColor
-        navigationBar.layer.shadowOpacity = 1
-        
     }
     
     // create the left bar button item which contains user profile image

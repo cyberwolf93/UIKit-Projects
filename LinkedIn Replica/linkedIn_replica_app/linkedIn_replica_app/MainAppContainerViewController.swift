@@ -73,6 +73,15 @@ class MainAppContainerViewController: UIViewController, DescendantforContainerTr
         
         //Messaged view
         view.addSubview(messagesViewController!.view)
+        messagesViewController?.view.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            messagesViewController!.view.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            messagesViewController!.view.leftAnchor.constraint(equalTo: mainTabBarViewController!.view.rightAnchor),
+            messagesViewController!.view.widthAnchor.constraint(equalToConstant: self.view.frame.width),
+            messagesViewController!.view.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+            
+        ])
+
         messagesViewController?.didMove(toParent: self)
     }
     
@@ -99,10 +108,13 @@ class MainAppContainerViewController: UIViewController, DescendantforContainerTr
     }
     
     func createMessagesViewController() {
-        guard let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: MessagesViewController.storyboardId) as? MessagesViewController else {
+        
+        
+        guard let viewController =  UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: MessagesViewController.storyboardId) as? MessagesViewController else {
             print("Faield to create MessagesViewController")
             return
         }
+        
         messagesViewController = viewController
         messagesViewController?.mainContainerTransitionController = mainContainerTransitionController
         messagesViewController?.view.frame = CGRect(x: self.view.frame.width, y: 0, width: self.view.frame.width, height: self.view.frame.height)

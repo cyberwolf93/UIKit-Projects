@@ -52,9 +52,51 @@ extension Date {
         return "1 m"
     }
     
+    func dateForMessage() -> String {
+        let dateNowInSecond = Date.now.timeIntervalSince1970
+        let diffrence = dateNowInSecond - self.timeIntervalSince1970
+        let dateFormatter = DateFormatter()
+        // return amount in years
+        if diffrence >= Self.NUMBER_OF_SECONDS_IN_YEAR {
+            dateFormatter.dateFormat = "dd/MM/yyyy"
+            return dateFormatter.string(from: self)
+        }
+        
+        // return amount in months
+        if diffrence >=  Self.NUMBER_OF_SECONDS_IN_MONTH {
+            dateFormatter.dateFormat = "MMM dd"
+            return dateFormatter.string(from: self)
+        }
+        
+        // return amount in weeks
+        if diffrence >=  Self.NUMBER_OF_SECONDS_IN_WEEK {
+            dateFormatter.dateFormat = "EE"
+            return dateFormatter.string(from: self)
+        }
+        
+        // return amount in days
+        if diffrence >=  Self.NUMBER_OF_SECONDS_IN_DAY {
+            return "\(Int(diffrence/Self.NUMBER_OF_SECONDS_IN_DAY)) d"
+        }
+        
+        // return amount in hours
+        if diffrence >=  Self.NUMBER_OF_SECONDS_IN_HOUR {
+            return "\(Int(diffrence/Self.NUMBER_OF_SECONDS_IN_HOUR)) hr"
+        }
+        
+        // return amount in mintes
+        if diffrence >=  Self.NUMBER_OF_SECONDS_IN_MINUTES {
+            return "\(Int(diffrence/Self.NUMBER_OF_SECONDS_IN_MINUTES)) m"
+        }
+        
+        return "1 m"
+    }
+    
     static func getDateFrom(date: String, with formate: String = "dd/MM/yyyy") -> Date {
         let formated = DateFormatter()
         formated.dateFormat = formate
         return formated.date(from: date)!
     }
+    
+    
 }

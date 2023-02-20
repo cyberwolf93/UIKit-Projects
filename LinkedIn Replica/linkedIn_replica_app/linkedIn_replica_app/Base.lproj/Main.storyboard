@@ -12,7 +12,7 @@
         <!--My Network View Controller-->
         <scene sceneID="A7J-3S-May">
             <objects>
-                <viewController id="q8k-3g-p9e" customClass="MyNetworkViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="q8k-3g-p9e" customClass="MyNetworkViewController" customModule="linkedIn_replica_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Y1-Cd-pJm">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,7 @@
         <!--Notifications View Controller-->
         <scene sceneID="cEx-fw-2PO">
             <objects>
-                <viewController id="fG8-pN-Dhp" customClass="NotificationsViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fG8-pN-Dhp" customClass="NotificationsViewController" customModule="linkedIn_replica_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5mg-3a-alx">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,7 +60,7 @@
         <!--Jobs View Controller-->
         <scene sceneID="RIB-cK-Psz">
             <objects>
-                <viewController id="EQG-HQ-H7K" customClass="JobsViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EQG-HQ-H7K" customClass="JobsViewController" customModule="linkedIn_replica_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B3i-x1-8Ym">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +76,7 @@
         <!--Home View Controller-->
         <scene sceneID="xZk-am-0t6">
             <objects>
-                <viewController id="AfW-pD-uMW" customClass="HomeViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AfW-pD-uMW" customClass="HomeViewController" customModule="linkedIn_replica_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pFg-5Z-2z4">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,7 +92,7 @@
         <!--Side Menu View Controller-->
         <scene sceneID="SKX-1j-xn3">
             <objects>
-                <viewController storyboardIdentifier="SideMenuViewControllerVCID" id="mJy-Th-VWH" customClass="SideMenuViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SideMenuViewControllerVCID" id="mJy-Th-VWH" customClass="SideMenuViewController" customModule="linkedIn_replica_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hKC-Je-kAC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,7 +107,7 @@
         <!--Main App Container View Controller-->
         <scene sceneID="b9s-uR-iKh">
             <objects>
-                <viewController id="f9h-18-L0z" customClass="MainAppContainerViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="f9h-18-L0z" customClass="MainAppContainerViewController" customModule="linkedIn_replica_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="at5-d9-d68">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,25 +119,26 @@
             </objects>
             <point key="canvasLocation" x="-198" y="-622"/>
         </scene>
-        <!--Messages View Controller-->
+        <!--Test-->
         <scene sceneID="JtQ-l0-UfC">
             <objects>
-                <viewController storyboardIdentifier="MessagesViewControllerVCID" id="UXA-nj-KA2" customClass="MessagesViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MessagesViewControllerVCID" id="UXA-nj-KA2" customClass="MessagesViewController" customModule="linkedIn_replica_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="szR-CW-zy5">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Kk4-oe-odJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Test" id="SSg-JQ-ocP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lhc-00-6F1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="645" y="-611"/>
+            <point key="canvasLocation" x="1573.8461538461538" y="-622.03791469194312"/>
         </scene>
         <!--Main Tab Bar View Controller-->
         <scene sceneID="r2f-OQ-06j">
             <objects>
-                <tabBarController storyboardIdentifier="MainTabBarViewControllerVCID" id="K3A-Ma-o7a" customClass="MainTabBarViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabBarViewControllerVCID" id="K3A-Ma-o7a" customClass="MainTabBarViewController" customModule="linkedIn_replica_app" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="4f9-Ru-K9q"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tI1-Mo-01f">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
@@ -159,7 +160,7 @@
         <!--Home Search View Controller-->
         <scene sceneID="rkw-hr-uhv">
             <objects>
-                <viewController storyboardIdentifier="HomeSearchViewControllerID" id="pSl-kB-0Ez" customClass="HomeSearchViewController" customModule="linkedIn_Replica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeSearchViewControllerID" id="pSl-kB-0Ez" customClass="HomeSearchViewController" customModule="linkedIn_replica_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rry-Pm-pQL">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -265,6 +266,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k0d-4s-pCs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2333.8461538461538" y="1026.5402843601896"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ONv-5D-GVI">
+            <objects>
+                <navigationController storyboardIdentifier="MessagesViewControllerVCIDNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="OJv-j0-LBS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="edj-9a-snd">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UXA-nj-KA2" kind="relationship" relationship="rootViewController" id="YZl-VZ-a4w"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7zP-ip-1kK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="644.61538461538464" y="-622.03791469194312"/>
         </scene>
     </scenes>
     <resources>

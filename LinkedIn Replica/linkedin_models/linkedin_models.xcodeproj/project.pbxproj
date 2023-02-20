@@ -40,6 +40,7 @@
 		8A3BE604297F3038007817E8 /* NotificationMetadataPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE603297F3038007817E8 /* NotificationMetadataPost.swift */; };
 		8A3BE69E2982DF77007817E8 /* PostType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE69D2982DF77007817E8 /* PostType.swift */; };
 		8A3BE6A02982E0B6007817E8 /* FundingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BE69F2982E0B6007817E8 /* FundingType.swift */; };
+		8A64FF5C299A7FAA0093345C /* MessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A64FF5B299A7FAA0093345C /* MessageEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		8A3BE603297F3038007817E8 /* NotificationMetadataPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationMetadataPost.swift; sourceTree = "<group>"; };
 		8A3BE69D2982DF77007817E8 /* PostType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostType.swift; sourceTree = "<group>"; };
 		8A3BE69F2982E0B6007817E8 /* FundingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundingType.swift; sourceTree = "<group>"; };
+		8A64FF5B299A7FAA0093345C /* MessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				8A3BE5FF297F2FC5007817E8 /* NotificationMetadataNews.swift */,
 				8A3BE601297F3004007817E8 /* NotificationMetadataPerson.swift */,
 				8A3BE603297F3038007817E8 /* NotificationMetadataPost.swift */,
+				8A64FF5B299A7FAA0093345C /* MessageEntity.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				8A3BE5FA297F2F21007817E8 /* NotificationActionType.swift in Sources */,
 				8A3BE5F4297F2C81007817E8 /* PositionLevelType.swift in Sources */,
 				8A3BE5EE297F27C0007817E8 /* LocationEntity.swift in Sources */,
+				8A64FF5C299A7FAA0093345C /* MessageEntity.swift in Sources */,
 				8A3BE5DC297F1FEC007817E8 /* EducationEntity.swift in Sources */,
 				8A3BE5D4297F078C007817E8 /* Post.swift in Sources */,
 				8A3BE5DA297F1EC6007817E8 /* ExperineceEntity.swift in Sources */,
