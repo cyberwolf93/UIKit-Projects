@@ -3,10 +3,8 @@
 
 
 ## Screenshots
-![](ReadmeAssets/first.gif)
-![](ReadmeAssets/second.gif)
-![](ReadmeAssets/third.gif)
-![](ReadmeAssets/fourth.gif)
+<img src="ReadmeAssets/first.gif" width="200"><img src="ReadmeAssets/second.gif" width="200">
+<img src="ReadmeAssets/third.gif" width="200"><img src="ReadmeAssets/fourth.gif" width="200">
 
 
 
